@@ -333,6 +333,7 @@ class Trainer(object):
       saver: Saver used for checkpointing.
       global_step: Step number of the checkpoint name.
     """
+    return
     if not self._logdir or not saver:
       return
     tf.gfile.MakeDirs(self._logdir)

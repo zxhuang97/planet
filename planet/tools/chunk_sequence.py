@@ -46,6 +46,7 @@ def chunk_sequence(sequence, chunk_length, randomize=True, num_chunks=None):
       length = sequence.pop('length')
     else:
       length = tf.shape(nested.flatten(sequence)[0])[0]
+
     if randomize:
       if num_chunks is None:
         num_chunks = tf.maximum(1, length // chunk_length - 1)
@@ -53,6 +54,10 @@ def chunk_sequence(sequence, chunk_length, randomize=True, num_chunks=None):
         num_chunks = num_chunks + 0 * length
       used_length = num_chunks * chunk_length
       max_offset = length - used_length
+      # a=tf.print('dubuggg', max_offset,length,used_length)
+      # with tf.control_dependencies([a]):
+      #   max_offset = max_offset *1
+
       offset = tf.random_uniform((), 0, max_offset + 1, dtype=tf.int32)
     else:
       if num_chunks is None:

@@ -96,7 +96,11 @@ def _data_processing(config, params):
           every=params.get('loader_every', 1000)),
       'reload': tools.numpy_episodes.reload_loader,
       'dummy': tools.numpy_episodes.dummy_loader,
+      'hard': tools.bind(
+          tools.numpy_episodes.hard_negative_loader,
+          every=params.get('loader_every', 1000)),
   }[params.get('loader', 'recent')]
+  print('lorder ', params.get('loader', 'recent'))
   config.bound_action = tools.bind(
       tools.bound_action,
       strategy=params.get('bound_action', 'clip'))
@@ -109,11 +113,13 @@ def _model_components(config, params):
   config.activation = ACTIVATIONS[params.get('activation', 'relu')]
   config.num_layers = params.get('num_layers', 3)
   config.num_units = params.get('num_units', 300)
+  dist = 'normal' if params.get('r_loss', 'nll')=='nll' else 'deterministic'
   config.head_network = tools.bind(
       networks.feed_forward,
       num_layers=config.num_layers,
       units=config.num_units,
-      activation=config.activation)
+      activation=config.activation,
+      dist=dist)
   config.encoder = network.encoder
   config.decoder = network.decoder
   config.heads = tools.AttrDict(_unlocked=True)
@@ -182,6 +188,9 @@ def _loss_functions(config, params):
   config.loss_scales.divergence = params.get('divergence_scale', 1.0)
   config.loss_scales.global_divergence = params.get('global_div_scale', 0.0)
   config.loss_scales.overshooting = params.get('overshooting_scale', 0.0)
+  config.r_loss = params.get('r_loss', 'nll')
+  config.contra_unit = params.get('contra_unit', 'step')
+  config.contra_horizon = int(params.get('contra_h', 12))
   for head in config.heads:
     defaults = {'reward': 10.0}
     scale = defaults[head] if head in defaults else 1.0
@@ -202,14 +211,14 @@ def _loss_functions(config, params):
 def _training_schedule(config, params):
   config.train_steps = int(params.get('train_steps', 50000))
   config.test_steps = int(params.get('test_steps', 50))
-  config.max_steps = int(params.get('max_steps', 5e7))
+  config.max_steps = int(params.get('max_steps', 6e6))
   config.train_log_every = config.train_steps
   config.train_checkpoint_every = None
   config.test_checkpoint_every = int(
       params.get('checkpoint_every', 10 * config.test_steps))
   config.checkpoint_to_load = None
   config.savers = [tools.AttrDict(exclude=(r'.*_temporary.*',))]
-  config.print_metrics_every = config.train_steps // 10
+  config.print_metrics_every = config.train_steps // 10 if  config.train_steps else 1
   config.train_dir = os.path.join(params.logdir, 'train_episodes')
   config.test_dir = os.path.join(params.logdir, 'test_episodes')
   config.random_collects = _initial_collection(config, params)

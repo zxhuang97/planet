@@ -65,7 +65,7 @@ def define_summaries(graph, config, cleanups):
       prior_dists = {
           name: head(prior_features)
           for name, head in heads.items()}
-      summaries += summary.dist_summaries(prior_dists, graph.data, mask)
+      # summaries += summary.dist_summaries(prior_dists, graph.data, mask)
       summaries += summary.image_summaries(
           prior_dists['image'], config.postprocess_fn(graph.data['image']))
     with tf.variable_scope('posterior'):
@@ -73,8 +73,8 @@ def define_summaries(graph, config, cleanups):
       posterior_dists = {
           name: head(posterior_features)
           for name, head in heads.items()}
-      summaries += summary.dist_summaries(
-          posterior_dists, graph.data, mask)
+      # summaries += summary.dist_summaries(
+      #     posterior_dists, graph.data, mask)
       summaries += summary.image_summaries(
           posterior_dists['image'],
           config.postprocess_fn(graph.data['image']))
@@ -85,15 +85,15 @@ def define_summaries(graph, config, cleanups):
         config.open_loop_context, config.debug)
     state_features = graph.cell.features_from_state(state)
     state_dists = {name: head(state_features) for name, head in heads.items()}
-    summaries += summary.dist_summaries(state_dists, graph.data, mask)
+    # summaries += summary.dist_summaries(state_dists, graph.data, mask)
     summaries += summary.image_summaries(
         state_dists['image'], config.postprocess_fn(graph.data['image']))
     summaries += summary.state_summaries(graph.cell, state, posterior, mask)
-    with tf.control_dependencies(plot_summaries):
-      plot_summary = summary.prediction_summaries(
-          state_dists, graph.data, state)
-      plot_summaries += plot_summary
-      summaries += plot_summary
+    # with tf.control_dependencies(plot_summaries):
+    #   plot_summary = summary.prediction_summaries(
+    #       state_dists, graph.data, state)
+    #   plot_summaries += plot_summary
+    #   summaries += plot_summary
 
   with tf.variable_scope('simulation'):
     sim_returns = []
@@ -104,7 +104,7 @@ def define_summaries(graph, config, cleanups):
           tf.equal(graph.phase, 'test'),
           lambda: utility.simulate_episodes(
               config, params, graph, cleanups,
-              expensive_summaries=False,
+              expensive_summaries=True,
               gif_summary=True,
               name=name),
           lambda: ('', 0.0),

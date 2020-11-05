@@ -72,7 +72,7 @@ def plot_summary(titles, lines, labels, name):
   return summary
 
 
-def data_summaries(data, postprocess_fn, histograms=False, name='data'):
+def data_summaries(data, postprocess_fn, histograms=True, name='data'):
   summaries = []
   with tf.variable_scope(name):
     if histograms:

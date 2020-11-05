@@ -93,7 +93,7 @@ class Experiment(object):
     """
     for current_run in self._generate_run_numbers():
       logdir = self._basedir and os.path.join(
-          self._basedir, '{:05}'.format(current_run))
+          self._basedir, '{:03}'.format(current_run))
       try:
         run = Run(
             logdir, self._process_fn, self._start_fn, self._resume_fn,
@@ -349,7 +349,7 @@ class Run(object):
     self._logger.warning('Exception:\n{}'.format(message))
     self._logger.warning('Failed.')
     try:
-      self._store_done()
+      # self._store_done()
       self._store_fail(message)
     except Exception:
       message = ''.join(traceback.format_exception(*sys.exc_info()))
