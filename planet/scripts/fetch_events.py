@@ -94,6 +94,7 @@ def process_logdir(logdir, args):
     safe_print('Start', logdir)
     reader = create_reader(logdir)
     for tag in reader.Runs()['run']['tensors']:  # tensors -> scalars
+      print(tag)
       if fnmatch.fnmatch(tag, args.tags):
         steps, times, values = extract_values(reader, tag)
         filename = '{}___{}'.format(basename, clean(tag))

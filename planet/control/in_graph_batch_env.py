@@ -58,6 +58,8 @@ class InGraphBatchEnv(object):
       self._done = tf.get_variable(
           'done', batch_dims, tf.int32,
           tf.constant_initializer(False), trainable=False)
+      self._env_state = tf.get_variable('env_state', [2,9],tf.float32,
+                                        tf.constant_initializer(0), trainable=False)
 
   def __getattr__(self, name):
     """Forward unimplemented attributes to one of the original environments.
@@ -91,14 +93,15 @@ class InGraphBatchEnv(object):
     """
     with tf.name_scope('environment/simulate'):
       observ_dtype = self._parse_dtype(self._batch_env.observation_space)
-      observ, reward, done = tf.py_func(
-          lambda a: self._batch_env.step(a)[:3], [action],
-          [observ_dtype, tf.float32, tf.bool], name='step')
+      observ, reward, done, env_state = tf.py_func(
+          lambda a: self._batch_env.step(a)[:4], [action],
+          [observ_dtype, tf.float32, tf.bool,tf.float32], name='step')
       # reward = tf.cast(reward, tf.float32)
       return tf.group(
           self._observ.assign(observ),
           self._action.assign(action),
           self._reward.assign(reward),
+          self._env_state.assign(env_state),
           self._done.assign(tf.to_int32(done)))
 
   def reset(self, indices=None):
@@ -113,13 +116,14 @@ class InGraphBatchEnv(object):
     if indices is None:
       indices = tf.range(len(self._batch_env))
     observ_dtype = self._parse_dtype(self._batch_env.observation_space)
-    observ = tf.py_func(
-        self._batch_env.reset, [indices], observ_dtype, name='reset')
+    observ , env_state = tf.py_func(
+        self._batch_env.reset, [indices], [observ_dtype, tf.float32], name='reset')
     reward = tf.zeros_like(indices, tf.float32)
     done = tf.zeros_like(indices, tf.int32)
     with tf.control_dependencies([
         tf.scatter_update(self._observ, indices, observ),
         tf.scatter_update(self._reward, indices, reward),
+        self._env_state.assign(env_state),
         tf.scatter_update(self._done, indices, tf.to_int32(done))]):
       return tf.identity(observ)
 
@@ -142,6 +146,10 @@ class InGraphBatchEnv(object):
   def done(self):
     """Access the variable indicating whether the episode is done."""
     return tf.cast(self._done, tf.bool)
+
+  @property
+  def state(self):
+    return self._env_state + 0
 
   def close(self):
     """Send close messages to the external process and join them."""

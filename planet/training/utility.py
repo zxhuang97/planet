@@ -240,7 +240,10 @@ def test(model_fn, datasets, logdir, config):
                     checkpoint_every=config.test_checkpoint_every)
         for saver in config.savers:
             trainer.add_saver(**saver)
-        for score in trainer.iterate(config.max_steps):
+        for i, score in enumerate(trainer.iterate(config.max_steps)):
+            print('Iteration ', i)
+            if i > 5:
+                break
             yield score
     finally:
         for cleanup in cleanups:
@@ -412,7 +415,7 @@ def horizon_sumV1(input, horizon=12):
     return horizon_sum
 
 
-def horizon_sumV2(input, horizon=12):
+def horizon_sumV2(pred, tgt, horizon=12):
     bs, epi_len = 50, 50
     weights_list = []
     for h in range(1, horizon + 1):
@@ -427,8 +430,9 @@ def horizon_sumV2(input, horizon=12):
     new_w = epi_len - rand_horizon + 1
     cur_weights = tf.slice(weights_tensors[tf.cast(rand_horizon, tf.int32)], [0, 0], [epi_len, new_w])
     # cur_weights = tf.slice(weights_tensors, [tf.cast(rand_horizon, tf.int32), 0, 0], [1, epi_len, new_w])
-    horizon_sum = tf.matmul(input, cur_weights)
-    return horizon_sum
+    horizon_pred = tf.matmul(pred, cur_weights)
+    horizon_tgt = tf.matmul(tgt, cur_weights)
+    return horizon_pred, horizon_tgt
 
 
 def contra_traj_lossV2(pred, tgt, horizon=9):
@@ -453,11 +457,17 @@ def contra_traj_lossV2(pred, tgt, horizon=9):
 # randrom horizon
 def contra_traj_lossV3(pred, tgt, horizon=12):
     # Step-wise contrastive loss
-    horizon_pred = horizon_sumV2(pred, horizon)
-    horizon_tgt = horizon_sumV2(tgt, horizon)
+    horizon_pred, horizon_tgt = horizon_sumV2(pred, tgt, horizon)
 
-    pred1, pred2 = tf.split(horizon_pred, 2, axis=0)
-    tgt1, tgt2 = tf.split(horizon_tgt, 2, axis=0)
+    # pred1, pred2 = tf.split(horizon_pred, 2, axis=0)
+    # tgt1, tgt2 = tf.split(horizon_tgt, 2, axis=0)
+
+    even = [2 * i for i in range(25)]
+    odd = [2 * i + 1 for i in range(25)]
+    pred1 = tf.gather(horizon_pred, even)
+    pred2 = tf.gather(horizon_pred, odd)
+    tgt1 = tf.gather(horizon_tgt, even)
+    tgt2 = tf.gather(horizon_tgt, odd)
 
     geq = tf.cast((tgt1 - tgt2) > 0, tf.bool)
     tgt_larg = tf.where(geq, tgt1, tgt2)

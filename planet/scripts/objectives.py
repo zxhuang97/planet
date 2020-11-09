@@ -25,4 +25,6 @@ def reward(state, graph, params):
     reward = graph.heads.reward(features)
   else:
     reward = graph.heads.reward(features).mean()
+  if params.get('planner', 'cem') =='cem_eval':
+    return reward
   return tf.reduce_sum(reward, 1)

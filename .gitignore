@@ -3,5 +3,9 @@ __pycache__/
 *.egg-info
 log
 out
+events
+out_cem
+.idea/*
+.DS_Store
 /dist
 MUJOCO_LOG.TXT

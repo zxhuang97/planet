@@ -8,7 +8,8 @@ from scipy import stats
 
 # name = 'hard_negative'
 # name = 'contra_traj12'
-name = 'contra_step'
+# name = 'contra_step'
+name = 'log_likeli'
 OUT_DIR = 'out/' + name
 
 PALETTE = 10 * (
@@ -184,7 +185,7 @@ def reward_diagnostic(rewards, bins=20):
 
     horizons = [1, 4, 8, 12, 16]
 
-    gd, pred = prepare(rewards)
+    gd, pred = prepare(rewards, sort=False)
     gd = gd.reshape(-1, 50)
     pred = pred.reshape(-1, 50)
     accs = []
@@ -222,6 +223,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--logdir', required=True)
     args = parser.parse_args()
+    # (N, 2)
     rewards = np.load(os.path.join(args.logdir, '{}.npy'.format(name)))
     rewards = np.random.permutation(rewards)[:100000]
     if os.path.exists(OUT_DIR) is False:

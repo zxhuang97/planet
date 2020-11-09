@@ -153,9 +153,27 @@ def define_testmodel(data, trainer, config, logdir):
         cell, embedded, data['action'], config.debug)
 
     features = graph.cell.features_from_state(posterior)
-    pred = heads['reward'](features).mean()
-    dependencies.append(reward_statistics(pred, data['reward'], logdir))
+    pred = heads['reward'](features)
+    # dependencies.append(reward_statistics(pred, data['reward'], logdir))
     summaries = []
+
+    with tf.variable_scope('collection'):
+        with tf.control_dependencies(summaries):  # Make sure to train first.
+            for name, params in config.train_collects.items():
+                # schedule = tools.schedule.binary(
+                #     step, config.batch_shape[0],
+                #     params.steps_after, params.steps_every, params.steps_until)
+                # summary, _ = tf.cond(
+                #     tf.logical_and(tf.equal(trainer.phase, 'train'), schedule),
+                #     functools.partial(
+                #         utility.simulate_episodes, config, params, graph, cleanups,
+                #         expensive_summaries=True, gif_summary=False, name=name),
+                #     lambda: (tf.constant(''), tf.constant(0.0)),
+                #     name='should_collect_' + name)
+                summary, _ = utility.simulate_episodes(config, params, graph, cleanups,
+                expensive_summaries = True, gif_summary = False, name = name)
+                dependencies.append(summary)
+                summaries.append(summary)
     # objectives = utility.compute_objectives(
     #     posterior, prior, data, graph, config, trainer)
     # summaries, grad_norms = utility.apply_optimizers(
@@ -178,7 +196,6 @@ def define_testmodel(data, trainer, config, logdir):
     #       summaries.append(summary)
 
     # Compute summaries.
-    graph = tools.AttrDict(locals())
     score = tf.zeros((0,), tf.float32)
     # summary, score = tf.cond(
     #     trainer.log,

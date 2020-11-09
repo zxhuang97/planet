@@ -12,9 +12,10 @@ import functools
 import itertools
 import multiprocessing
 import uuid
-
+import time
 from dm_control import rl
 from dm_control import suite
+import dm_env
 import numpy as np
 
 
@@ -37,7 +38,12 @@ class ActionRepeat(object):
             discount *= time_step.discount
             if time_step.last():
                 break
-        time_step = rl.environment.TimeStep(
+        # time_step = rl.environment.TimeStep(
+        #     step_type=time_step.step_type,
+        #     reward=reward,
+        #     discount=discount,
+        #     observation=time_step.observation)
+        time_step = dm_env._environment.TimeStep(
             step_type=time_step.step_type,
             reward=reward,
             discount=discount,
@@ -111,6 +117,7 @@ class AsyncEvaluator:
             env.physics.data.qpos[:] = state[0]
             env.physics.data.qvel[:] = state[1]
         score = 0
+
         for action in actions:
             time_step = env.step(action)
             score += time_step.reward
@@ -205,25 +212,31 @@ if __name__ == '__main__':
         '-i', '--iterations', type=int, default=10,
         help='Number of optimization iterations for each action sequence.')
     args = parser.parse_args()
+    args.quiet = False
 
     env_ctor = functools.partial(create_env, args)
-    evaluator = AsyncEvaluator(env_ctor, 10)
-    ls = 6, 8, 10, 12, 14
-    ps = 1000, 500, 300, 100
-    fs = 0.5, 0.3, 0.1, 0.05
-    is_ = 3, 5, 10, 15
-    args.quiet = True
-    with open('mpc.csv', 'w') as outfile:
-        outfile.write('horizon,proposals,fraction,iterations,score\n')
-        for l, p, f, i in itertools.product(ls, ps, fs, is_):
-            print('start')
-            args.horizon = l
-            args.proposals = p
-            args.topk = int(p * f)
-            args.iterations = i
-            score = main(args, evaluator)
-            row = '{},{},{},{},{}\n'.format(l, p, f, i, score)
-            print(row)
-            outfile.write(row)
-            outfile.flush()
+    evaluator = AsyncEvaluator(env_ctor, 40)
+    t1= time.time()
+    print('begin')
+    score = main(args, evaluator)
+    # ls = 6, 8, 10, 12, 14
+    # ps = 1000, 500, 300, 100
+    # fs = 0.5, 0.3, 0.1, 0.05
+    # is_ = 3, 5, 10, 15
+    # args.quiet = True
+    # with open('mpc.csv', 'w') as outfile:
+    #     outfile.write('horizon,proposals,fraction,iterations,score\n')
+    #     for l, p, f, i in itertools.product(ls, ps, fs, is_):
+    #         print('start')
+    #         args.horizon = l
+    #         args.proposals = p
+    #         args.topk = int(p * f)
+    #         args.iterations = i
+    #         score = main(args, evaluator)
+    #         row = '{},{},{},{},{}\n'.format(l, p, f, i, score)
+    #         print(row)
+    #         outfile.write(row)
+    #         outfile.flush()
+    print('TIME EPLAPSED ', time.time()-t1)
+    print(score)
     evaluator.close()
