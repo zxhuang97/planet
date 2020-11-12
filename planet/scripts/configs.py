@@ -192,6 +192,8 @@ def _loss_functions(config, params):
     config.r_loss = params.get('r_loss', 'nll')
     config.contra_unit = params.get('contra_unit', 'step')
     config.contra_horizon = int(params.get('contra_h', 12))
+    config.resample = int(params.get('resample', 1))
+
     for head in config.heads:
         defaults = {'reward': 10.0}
         scale = defaults[head] if head in defaults else 1.0

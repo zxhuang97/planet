@@ -60,9 +60,8 @@ class MPCAgent(object):
     state = nested.map(
         lambda tensor: tf.gather(tensor, agent_indices),
         self._state)
-    p = tf.print('Env_state \n', env_state)
-    with tf.control_dependencies([p]):
-        prev_action = self._prev_action + 0
+
+    prev_action = self._prev_action + 0
     with tf.control_dependencies([prev_action]):
       use_obs = tf.ones(tf.shape(agent_indices), tf.bool)[:, None]
       _, state = self._cell((embedded, prev_action, use_obs), state)

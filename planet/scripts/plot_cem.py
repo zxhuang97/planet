@@ -63,7 +63,7 @@ def planning_diagnostic(buffer):
 
 def iter_diagnostic(trajs, pref=None, plot=False):
     # N*1000*2
-    hor_trajs = horizon_sum(trajs, 1)
+    hor_trajs = horizon_sum(trajs, 12)
     hor_gds = hor_trajs[:, :, 0]
     hor_preds = hor_trajs[:, :, 1]
     k = 100
@@ -116,7 +116,7 @@ def iter_diagnostic(trajs, pref=None, plot=False):
                # 'corres_pred_rank': corres_pred_rank,
                'traj_return_gd': data_stats(hor_gds, ' Ground truth reward'),
                'traj_return_pred': data_stats(hor_preds, ' Predicted reward')}
-    print(results['traj_return_gd'],results['traj_return_pred'])
+    #print(results['traj_return_gd'],results['traj_return_pred'])
     return results
 
 
@@ -162,6 +162,7 @@ def plot_rank(results, metric):
         ys = v[metric]
         xs = np.arange(ys.shape[0])
         plt.plot(xs, ys, color=PALETTE[i], label=name)
+        print(xs.shape,ys.shape)
         plt.scatter(xs, ys, color=PALETTE[-i])
     plt.title(metric)
     plt.legend()
@@ -172,7 +173,8 @@ def plot_rank(results, metric):
 def plot_all(results, hor):
     metrics = next(iter(results.values())).keys()
     for metric in metrics:
-        if 'stats' not in metric:
+        print('Plot ', metric)
+        if 'traj' not in metric:
             plot_line(results, metric, hor)
         else:
             plot_std(results, metric, hor)
@@ -192,7 +194,7 @@ if __name__ == '__main__':
     runs = ['baseline', 'hard_negative', 'contra_traj', 'contra_step']
     # runs = ['hard_negative','baseline']
     result = OrderedDict()
-    hor = 1
+    hor = 12
     for r in runs:
         print('Load the trajs of ', r)
         buffer = np.load(os.path.join(args.logdir, r, '001/cem_traj.npy'))

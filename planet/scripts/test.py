@@ -12,14 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-r"""Train a Deep Planning Network agent.
+r"""Test a Deep Planning Network agent.
 
-Full training run:
+Full testing run:
 
-python3 -m planet.scripts.train \
-    --logdir /path/to/logdir \
-    --config default \
-    --params '{tasks: [cheetah_run]}'
+python3 -m planet.scripts.test --logdir log/contra_step_hard/ --params
+"{tasks: [cheetah_run],r_loss: contra,reward_loss_scale: 10.0,train_steps: 0,planner: cem_eval}"
+ --num_runs 1 --resume_runs True
 
 For debugging:
 
@@ -45,6 +44,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(
 
 # Need offline backend to render summaries from within tf.py_func.
 import matplotlib
+
 matplotlib.use('Agg')
 
 import ruamel.yaml as yaml
@@ -55,61 +55,60 @@ from planet import training
 from planet.scripts import configs
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 
 def process(logdir, args):
-  with args.params.unlocked:
-    args.params.logdir = logdir
-  config = tools.AttrDict()
-  with config.unlocked:
-    config = getattr(configs, args.config)(config, args.params)
-  # training.utility.collect_initial_episodes(config)
-  tf.reset_default_graph()
-  dataset = tools.numpy_episodes.numpy_episodes(
-      config.train_dir, config.test_dir, config.batch_shape,
-      reader=config.data_reader,
-      loader=config.data_loader,
-      num_chunks=config.num_chunks,
-      preprocess_fn=config.preprocess_fn)
-  for score in training.utility.test(
-      training.define_testmodel, dataset, logdir, config):
-    yield score
+    with args.params.unlocked:
+        args.params.logdir = logdir
+    config = tools.AttrDict()
+    with config.unlocked:
+        config = getattr(configs, args.config)(config, args.params)
+    # training.utility.collect_initial_episodes(config)
+    tf.reset_default_graph()
+    dataset = tools.numpy_episodes.numpy_episodes(
+        config.train_dir, config.test_dir, config.batch_shape,
+        reader=config.data_reader,
+        loader=config.data_loader,
+        num_chunks=config.num_chunks,
+        preprocess_fn=config.preprocess_fn)
+    for score in training.utility.test(
+            training.define_testmodel, dataset, logdir, config):
+        yield score
 
 
 def main(args):
-  training.utility.set_up_logging()
-  experiment = training.Experiment(
-      args.logdir,
-      process_fn=functools.partial(process, args=args),
-      num_runs=args.num_runs,
-      ping_every=args.ping_every,
-      resume_runs=args.resume_runs)
-  for run in experiment:
-    for unused_score in run:
-      pass
+    training.utility.set_up_logging()
+    experiment = training.Experiment(
+        args.logdir,
+        process_fn=functools.partial(process, args=args),
+        num_runs=args.num_runs,
+        ping_every=args.ping_every,
+        resume_runs=args.resume_runs)
+    for run in experiment:
+        for unused_score in run:
+            pass
 
 
 if __name__ == '__main__':
-  boolean = lambda x: bool(['False', 'True'].index(x))
-  parser = argparse.ArgumentParser()
-  parser.add_argument(
-      '--logdir', required=True)
-  parser.add_argument(
-      '--num_runs', type=int, default=1)
-  parser.add_argument(
-      '--config', default='default',
-      help='Select a configuration function from scripts/configs.py.')
-  parser.add_argument(
-      '--params', default='{}',
-      help='YAML formatted dictionary to be used by the config.')
-  parser.add_argument(
-      '--ping_every', type=int, default=0,
-      help='Used to prevent conflicts between multiple workers; 0 to disable.')
-  parser.add_argument(
-      '--resume_runs', type=boolean, default=True,
-      help='Whether to resume unfinished runs in the log directory.')
-  args_, remaining = parser.parse_known_args()
-  args_.params = tools.AttrDict(yaml.safe_load(args_.params.replace('#', ',')))
-  args_.logdir = args_.logdir and os.path.expanduser(args_.logdir)
-  remaining.insert(0, sys.argv[0])
-  tf.app.run(lambda _: main(args_), remaining)
+    boolean = lambda x: bool(['False', 'True'].index(x))
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '--logdir', required=True)
+    parser.add_argument(
+        '--num_runs', type=int, default=1)
+    parser.add_argument(
+        '--config', default='default',
+        help='Select a configuration function from scripts/configs.py.')
+    parser.add_argument(
+        '--params', default='{}',
+        help='YAML formatted dictionary to be used by the config.')
+    parser.add_argument(
+        '--ping_every', type=int, default=0,
+        help='Used to prevent conflicts between multiple workers; 0 to disable.')
+    parser.add_argument(
+        '--resume_runs', type=boolean, default=True,
+        help='Whether to resume unfinished runs in the log directory.')
+    args_, remaining = parser.parse_known_args()
+    args_.params = tools.AttrDict(yaml.safe_load(args_.params.replace('#', ',')))
+    args_.logdir = args_.logdir and os.path.expanduser(args_.logdir)
+    remaining.insert(0, sys.argv[0])
+    tf.app.run(lambda _: main(args_), remaining)

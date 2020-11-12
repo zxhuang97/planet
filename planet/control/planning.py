@@ -114,6 +114,7 @@ class AsyncEvaluator:
             for _ in range(num_workers)]
         for worker in self._workers:
             worker.start()
+        print('Create the evaluator')
 
     def __call__(self, state, actions):
         assert not self._closed
@@ -168,32 +169,13 @@ class AsyncEvaluator:
             scores.append(time_step.reward)
         return scores
 
-
-def cem_planner(
-        evaluator, random, action_spec, state, horizon, proposals, topk, iterations):
-    mean = np.zeros((horizon,) + action_spec.shape)
-    std = np.ones((horizon,) + action_spec.shape)
-    for _ in range(iterations):
-        actions = []
-        promises = []
-        for _ in range(proposals):
-            action = random.normal(mean, std)
-            promise = evaluator(state, action)
-            promises.append(promise)
-            actions.append(action)
-        scores = [promise() for promise in promises]
-        actions = np.array(actions)[np.argsort(scores)]
-        mean, std = actions[-topk:].mean(0), actions[-topk:].std(0)
-    return mean[0]
-
-
 def create_env(domain, task, repeat):
     env = suite.load(domain, task)
     env = ActionRepeat(env, repeat)
     return env
 
 
-def gd_eval(state, actions, preds,logdir):
+def gd_eval(state, actions, preds, logdir):
 
     env_ctor = functools.partial(create_env, domain='cheetah', task='run', repeat=4)
     evaluator = AsyncEvaluator(env_ctor, 40)
@@ -216,7 +198,7 @@ def gd_eval(state, actions, preds,logdir):
         print(new.shape)
         np.save(os.path.join(logdir, name), new)
         return float(0.0)
-    op = tf.py_func(eval, inp=[state, actions,preds], Tout=tf.float64)
+    op = tf.py_func(eval, inp=[state, actions, preds], Tout=tf.float64)
     return op
 
 
@@ -237,15 +219,18 @@ def cross_entropy_method_eval(
         normal = tf.random_normal((original_batch, amount, horizon) + action_shape)
         action = normal * stddev[:, None] + mean[:, None]
         action = tf.clip_by_value(action, min_action, max_action)
-        # Evaluate proposal actions.
+        # Evaluate proposal actions by latent imagination
         action = tf.reshape(
             action, (extended_batch, horizon) + action_shape)
         (_, state), _ = tf.nn.dynamic_rnn(
             cell, (0 * obs, action, use_obs), initial_state=initial_state)
         reward = objective_fn(state)
+
+        # evaluate candidate trajectories by true simulator
         simu_eval = gd_eval(env_state, action, reward,logdir)
         with tf.control_dependencies([simu_eval]):
             return_ = tf.reduce_sum(reward, 1)
+
         return_ = tf.reshape(return_, (original_batch, amount))
         # Re-fit belief to the best ones.
         _, indices = tf.nn.top_k(return_, topk, sorted=False)
@@ -257,6 +242,7 @@ def cross_entropy_method_eval(
 
     mean = tf.zeros((original_batch, horizon) + action_shape)
     stddev = tf.ones((original_batch, horizon) + action_shape)
+
     if iterations < 1:
         return mean
     mean, stddev = tf.scan(

@@ -313,10 +313,11 @@ def compute_objectives(posterior, prior, target, graph, config, trainer):
             pred = heads[name](features)
             if config.contra_unit == 'step':
                 print('Using step loss')
-                contra_loss = contra_step_lossV4(pred, target[name])
+                contra_loss = contra_step_lossV5(pred, target[name], resample=config.resample)
             else:
                 print('Using trajectory loss ', config.contra_horizon)
-                contra_loss = contra_traj_lossV3(pred, target[name], horizon=config.contra_horizon)
+                contra_loss = contra_traj_lossV5(pred, target[name], horizon=config.contra_horizon,
+                                                 resample=config.resample)
             objectives.append((Objective(name, contra_loss, min, include, exclude)))
         elif name == 'reward' and config.r_loss == 'l2':
             pred = heads[name](features)
@@ -373,6 +374,7 @@ def contra_step_lossV3(pred, tgt, margin=1.0):
 
 
 def contra_step_lossV4(pred, tgt):
+    # 50*50
     # Step-wise contrastive loss
     even = [2 * i for i in range(25)]
     odd = [2 * i + 1 for i in range(25)]
@@ -390,6 +392,65 @@ def contra_step_lossV4(pred, tgt):
     loss = tf.maximum(0.0, (tgt_larg - tgt_small) - (pred_larg - pred_small))
     loss = tf.reduce_mean(loss)
     return loss
+
+
+def compute_contra_loss(pred1, pred2, tgt1, tgt2):
+    geq = tf.cast((tgt1 - tgt2) > 0, tf.bool)
+    tgt_larg = tf.where(geq, tgt1, tgt2)
+    tgt_small = tf.where(geq, tgt2, tgt1)
+    pred_larg = tf.where(geq, pred1, pred2)
+    pred_small = tf.where(geq, pred2, pred1)
+
+    loss = tf.maximum(0.0, (tgt_larg - tgt_small) - (pred_larg - pred_small))
+    loss = tf.reduce_mean(loss)
+    return loss
+
+
+def contra_step_lossV5(pred, tgt, resample=1):
+    pred_flat = tf.reshape(pred, [-1])
+    tgt_flat = tf.reshape(tgt, [-1])
+    batch = tf.stack([pred_flat, tgt_flat])
+    num = tools.shape(batch)[0]
+
+    def sample_compute(cur_loss,_):
+        batch1 = tf.random.shuffle(batch)
+        batch2 = tf.random.shuffle(batch)
+        pred1 = tf.slice(batch1, [0, 0], [num, 1])
+        pred2 = tf.slice(batch2, [0, 0], [num, 1])
+        tgt1 = tf.slice(batch1, [0, 1], [num, 1])
+        tgt2 = tf.slice(batch2, [0, 1], [num, 1])
+        loss = cur_loss + compute_contra_loss(pred1, pred2, tgt1, tgt2)
+        return loss
+
+    loss = tf.zeros([1], tf.float32)
+    final_loss = tf.scan(sample_compute, tf.range(resample), loss)
+    return final_loss / resample
+
+
+def contra_traj_lossV5(pred, tgt, horizon=12, resample=1):
+    horizon_pred = horizon_sumV1(pred, horizon)
+    horizon_tgt = horizon_sumV1(tgt, horizon)
+
+    pred_flat = tf.reshape(horizon_pred, [-1])
+    tgt_flat = tf.reshape(horizon_tgt, [-1])
+    batch = tf.stack([pred_flat, tgt_flat])
+    num_sam = tools.shape(batch)[0]
+    index = tf.range(num_sam)
+
+
+    def sample_compute(cur_loss,_):
+        batch1 = tf.gather(batch, tf.random.shuffle(index))
+        batch2 = tf.gather(batch, tf.random.shuffle(index))
+        pred1 = tf.slice(batch1, [0, 0], [num_sam, 1])
+        pred2 = tf.slice(batch2, [0, 0], [num_sam, 1])
+        tgt1 = tf.slice(batch1, [0, 1], [num_sam, 1])
+        tgt2 = tf.slice(batch2, [0, 1], [num_sam, 1])
+        loss = cur_loss + compute_contra_loss(pred1, pred2, tgt1, tgt2)
+        return loss
+
+    loss = tf.zeros([1], tf.float32)
+    final_loss = tf.scan(sample_compute, tf.range(resample), loss)
+    return final_loss / resample
 
 
 def contra_traj_lossV1(pred, tgt, temp=10.0):
@@ -427,7 +488,7 @@ def horizon_sumV2(pred, tgt, horizon=12):
     weights_tensors = tf.stack([tf.convert_to_tensor(weights, dtype=tf.float32) for weights in weights_list])
 
     rand_horizon = tf.random_uniform((), 0, horizon, dtype=tf.int32)
-    new_w = epi_len - rand_horizon + 1
+    new_w = epi_len - rand_horizon
     cur_weights = tf.slice(weights_tensors[tf.cast(rand_horizon, tf.int32)], [0, 0], [epi_len, new_w])
     # cur_weights = tf.slice(weights_tensors, [tf.cast(rand_horizon, tf.int32), 0, 0], [1, epi_len, new_w])
     horizon_pred = tf.matmul(pred, cur_weights)

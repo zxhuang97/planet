@@ -190,6 +190,7 @@ def _permuted(sequence, amount):
 
 
 def _hard_permuted(sequence, amount, sorted_ind):
+    # amount = 1000
     ratio = 0.05
     sequence = list(sequence)
     ind = [i for i in range(len(sequence))]
@@ -203,6 +204,7 @@ def _hard_permuted(sequence, amount, sorted_ind):
                 return
             yield sequence[element]
             index += 1
+            # for a certain chance, sample hard negatives, otherwise, uniform sample
             if np.random.random() < 0.5:
                 pos = sorted_ind.index(element)
                 lbound = max(0, pos - dia)
@@ -210,6 +212,9 @@ def _hard_permuted(sequence, amount, sorted_ind):
                 rival = sorted_ind[np.random.randint(lbound, ubound)] if ubound>lbound else element
                 index += 1
                 yield sequence[rival]
+            else:
+                yield sequence[element]
+                index += 1
 
 
 def hard_negative_loader(reader, directory, batch_size, every):
