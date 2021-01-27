@@ -20,6 +20,11 @@ import tensorflow as tf
 
 
 def reward(state, graph, params):
-  features = graph.cell.features_from_state(state)
-  reward = graph.heads.reward(features).mean()
-  return tf.reduce_sum(reward, 1)
+    features = graph.cell.features_from_state(state)
+    if params.get('r_loss', 'nll') != 'nll':
+        reward = graph.heads.reward(features)
+    else:
+        reward = graph.heads.reward(features).mean()
+    # if params.get('planner', 'cem') != 'cem':
+    #     return reward
+    return tf.reduce_sum(reward, 1)

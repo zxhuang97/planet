@@ -17,7 +17,7 @@ from __future__ import division
 from __future__ import print_function
 
 from . import utility
-from .define_model import define_model
+from .define_model import define_model, define_testmodel
 from .define_summaries import define_summaries
 from .running import Experiment
 from .trainer import Trainer

@@ -1,0 +1,962 @@
+Traceback (most recent call last):
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 113, in <module>
+    tf.app.run(lambda _: main(args_), remaining)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 125, in run
+    _sys.exit(main(argv))
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 113, in <lambda>
+    tf.app.run(lambda _: main(args_), remaining)
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 86, in main
+    for unused_score in run:
+  File "/home/zixuanhu/repository/planet/planet/training/running.py", line 201, in __iter__
+    for value in self._process_fn(self._logdir, *args):
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 73, in process
+    training.define_model, dataset, logdir, config):
+  File "/home/zixuanhu/repository/planet/planet/training/utility.py", line 194, in train
+    for score in trainer.iterate(config.max_steps):
+  File "/home/zixuanhu/repository/planet/planet/training/trainer.py", line 202, in iterate
+    summary, mean_score, global_step = sess.run(phase.op, phase.feed)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+KeyboardInterrupt
+(tf1) [zixuanhu@compute-0-9 planet]$  python3 -m planet.scripts.train --logdir log/resample_traj  --params "{tasks: [cheetah_run],r_loss: contra,contra_h: 12, contra_unit: step, reward_loss_scale: 10.0, resample: 10, train_steps: 1000}" --num_runs 100 --resume_runs False
+/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py:125: RuntimeWarning: 'planet.scripts.train' found in sys.modules after import of package 'planet.scripts', but prior to execution of 'planet.scripts.train'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+WARNING:tensorflow:Worker 4fe84aa9-30e9-410d-a022-fa488ad1202f run 066: Create directory 'log/resample_traj/066'.
+WARNING:tensorflow:Worker 4fe84aa9-30e9-410d-a022-fa488ad1202f run 066: Start.
+lorder  recent
+Collecting 5 initial episodes (test-cheetah_run).
+/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+Recorded episode 20201112T152522-51de12eb0e90417d872aca50bc26e870 to test_episodes.
+Recorded episode 20201112T152523-c93b4ffb2472486db946a4e3c84619dc to test_episodes.
+Recorded episode 20201112T152524-edff152faf9e4d65bb2cf172056b53f2 to test_episodes.
+Recorded episode 20201112T152525-f25e6095275d45478635b962637f0cdb to test_episodes.
+Recorded episode 20201112T152526-7598bf9df0f4457189f4c5fcad1020e6 to test_episodes.
+Collecting 5 initial episodes (train-cheetah_run).
+Recorded episode 20201112T152528-e82c60e79d2547218004ba9e5d7acc0a to train_episodes.
+Recorded episode 20201112T152529-177c8290501c4e9f9c4970458346b58d to train_episodes.
+Recorded episode 20201112T152530-4edb191c2771412da9da414b9172535b to train_episodes.
+Recorded episode 20201112T152531-7b46ed20604b4a2f9d5a2f4d615c6cf2 to train_episodes.
+Recorded episode 20201112T152532-51622883e6504ff6b74b200292ada579 to train_episodes.
+WARNING:tensorflow:From /home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:429: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, use
+    tf.py_function, which takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+
+WARNING:tensorflow:From /home/zixuanhu/repository/planet/planet/tools/preprocess.py:24: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+log/resample_traj/066
+INFO:tensorflow:Start a new run and write summaries and checkpoints to log/resample_traj/066.
+WARNING:tensorflow:From /home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+INFO:tensorflow:Build TensorFlow compute graph.
+WARNING:tensorflow:From /home/zixuanhu/repository/planet/planet/networks/conv_ha.py:44: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/zixuanhu/repository/planet/planet/networks/conv_ha.py:46: conv2d_transpose (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.conv2d_transpose instead.
+Head configuration:  deterministic
+WARNING:tensorflow:From /home/zixuanhu/repository/planet/planet/networks/conv_ha.py:30: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.conv2d instead.
+WARNING:tensorflow:From /home/zixuanhu/repository/planet/planet/networks/conv_ha.py:34: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /home/zixuanhu/repository/planet/planet/tools/unroll.py:28: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+Head configuration:  deterministic
+Using step loss
+Tensor("graph/cond_1/while/add:0", shape=(), dtype=float32)
+WARNING:tensorflow:From /home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/array_grad.py:425: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:110: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+Head configuration:  deterministic
+Head configuration:  deterministic
+Head configuration:  deterministic
+Head configuration:  deterministic
+Head configuration:  deterministic
+INFO:tensorflow:Graph contains 5293220 trainable variables.
+2020-11-12 15:26:11.866259: E tensorflow/core/common_runtime/session.cc:75] Not found: No session factory registered for the given session options: {target: "local" config: gpu_options { allow_growth: true }} Registered factories are {DIRECT_SESSION, GRPC_SESSION}.
+2020-11-12 15:26:11.866433: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-11-12 15:26:12.412380: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555e176a0760 executing computations on platform CUDA. Devices:
+2020-11-12 15:26:12.412420: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2020-11-12 15:26:12.412429: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2020-11-12 15:26:12.412435: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2020-11-12 15:26:12.412442: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): GeForce GTX 1080 Ti, Compute Capability 6.1
+2020-11-12 15:26:12.416915: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2099985000 Hz
+2020-11-12 15:26:12.418147: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555e16f985c0 executing computations on platform Host. Devices:
+2020-11-12 15:26:12.418180: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2020-11-12 15:26:12.418338: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:02:00.0
+totalMemory: 10.92GiB freeMemory: 6.53GiB
+2020-11-12 15:26:12.418416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 1 with properties:
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:03:00.0
+totalMemory: 10.92GiB freeMemory: 4.54GiB
+2020-11-12 15:26:12.418467: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 2 with properties:
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:82:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2020-11-12 15:26:12.418520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 3 with properties:
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:83:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2020-11-12 15:26:12.420161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0, 1, 2, 3
+2020-11-12 15:26:12.423349: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-11-12 15:26:12.423375: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 1 2 3
+2020-11-12 15:26:12.423387: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N Y N N
+2020-11-12 15:26:12.423397: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 1:   Y N N N
+2020-11-12 15:26:12.423417: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 2:   N N N Y
+2020-11-12 15:26:12.423425: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 3:   N N Y N
+2020-11-12 15:26:12.423571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6356 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2020-11-12 15:26:12.423801: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 4345 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:03:00.0, compute capability: 6.1)
+2020-11-12 15:26:12.424019: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 10477 MB memory) -> physical GPU (device: 2, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+2020-11-12 15:26:12.424238: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 10477 MB memory) -> physical GPU (device: 3, name: GeForce GTX 1080 Ti, pci bus id: 0000:83:00.0, compute capability: 6.1)
+INFO:tensorflow:
+--------------------------------------------------
+Epoch 1 phase train (phase step 0, global step 0).
+INFO:tensorflow:one iter begin
+2020-11-12 15:26:33.995203: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+Check pts 111 None
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [0, 0, [train], 0, 1]
+objectives: step/reward/divergence/image = [0, 0.108955599, 0, -11607.5059]
+grad_norms: step/main = [0, 1449.08838]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+Check pts 111 None
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [50, 50, [train], 0, 0]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+Check pts 111 None
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [100, 100, [train], 0, 0]
+objectives: step/reward/divergence/image = [100, 0.0959793776, 0, -11587.8203]
+grad_norms: step/main = [100, 1415.58875]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+Check pts 111 None
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [150, 150, [train], 0, 0]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+check phase config  [200, 200, [train], 0, 0]
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+Check pts 111 None
+objectives: step/reward/divergence/image = [200, 0.0979444236, 1.87418664, -11644.2422]
+grad_norms: step/main = [200, 2608.19312]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [250, 250, [train], 0, 0]Check pts 111 None
+
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+Check pts 111 None
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [300, 300, [train], 0, 0]
+objectives: step/reward/divergence/image = [300, 0.0877556503, 0, -11468.9121]
+grad_norms: step/main = [300, 967.226929]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+Check pts 111 None
+check phase config  [350, 350, [train], 0, 0]
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+Check pts 111 None
+check phase config  [400, 400, [train], 0, 0]
+objectives: step/reward/divergence/image = [400, 0.0842381, 0, -11453.0215]
+grad_norms: step/main = [400, 1025.95044]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+Check pts 111 None
+check phase config  [450, 450, [train], 0, 0]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+Check pts 111 None
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [500, 500, [train], 0, 0]
+objectives: step/reward/divergence/image = [500, 0.0799284279, 0, -11424.1074]
+grad_norms: step/main = [500, 737.476318]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+Check pts 111 None
+check phase config  [550, 550, [train], 0, 0]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [600, 600, [train], 0, 0]
+Check pts 111 None
+objectives: step/reward/divergence/image = [600, 0.0791611, 0, -11391.6719]
+grad_norms: step/main = [600, 505.319489]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+Check pts 111 None
+check phase config  [650, 650, [train], 0, 0]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+Check pts 111 None
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [700, 700, [train], 0, 0]
+objectives: step/reward/divergence/image = [700, 0.0814118683, 0, -11390.8076]
+grad_norms: step/main = [700, 684.005859]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+Check pts 111 None
+check phase config  [750, 750, [train], 0, 0]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+Check pts 111 None
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [800, 800, [train], 0, 0]
+objectives: step/reward/divergence/image = [800, 0.0767474473, 0, -11370.5977]
+grad_norms: step/main = [800, 335.329041]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+Check pts 111 None
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [850, 850, [train], 0, 0]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+Check pts 111 None
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [900, 900, [train], 0, 0]
+objectives: step/reward/divergence/image = [900, 0.0827627778, 0, -11368.1309]
+grad_norms: step/main = [900, 336.069946]
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:one iter begin
+begin loss v5 [10,
+ TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+check phase config  [950, 950, [train], 1, 0]
+Check pts 111 None
+finish model???????
+
+INFO:tensorflow:one iter finish
+INFO:tensorflow:
+--------------------------------------------------
+Epoch 1 phase test (phase step 0, global step 1000).
+INFO:tensorflow:one iter begin
+begin loss v5 [TensorShape([Dimension(50), Dimension(50)]),
+ TensorShape([Dimension(50), Dimension(50)])]
+Check pts 1 None
+Check pts 2.1 None
+grad_norms: step/main = [1000, 145.52179]
+check phase config  [0, 1000, [test], 1, 1]
+/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-11-12 15:27:18.716916: W tensorflow/core/framework/op_kernel.cc:1389] Unknown: RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+Traceback (most recent call last):
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 207, in __call__
+    ret = func(*args)
+
+  File "/home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py", line 94, in <lambda>
+    lambda a: self._batch_env.step(a)[:3], [action],
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in step
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in <listcomp>
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 89, in step
+    obs, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 455, in step
+    transition = self._env.step(action, *args, **kwargs)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 535, in step
+    observ, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 158, in step
+    obs[self._key] = self._render_image()
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 167, in _render_image
+    image = self._env.render('rgb_array')
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 316, in render
+    *self._render_size, camera_id=self._camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 214, in render
+    physics=self, height=height, width=width, camera_id=camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 664, in __init__
+    with self._physics.contexts.gl.make_current() as ctx:
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/_render/base.py", line 120, in make_current
+    _CURRENT_THREAD_FOR_CONTEXT[id(self)]))
+
+RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+
+
+WARNING:tensorflow:Worker 4fe84aa9-30e9-410d-a022-fa488ad1202f run 066: Exception:
+Traceback (most recent call last):
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.UnknownError: RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+Traceback (most recent call last):
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 207, in __call__
+    ret = func(*args)
+
+  File "/home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py", line 94, in <lambda>
+    lambda a: self._batch_env.step(a)[:3], [action],
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in step
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in <listcomp>
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 89, in step
+    obs, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 455, in step
+    transition = self._env.step(action, *args, **kwargs)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 535, in step
+    observ, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 158, in step
+    obs[self._key] = self._render_image()
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 167, in _render_image
+    image = self._env.render('rgb_array')
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 316, in render
+    *self._render_size, camera_id=self._camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 214, in render
+    physics=self, height=height, width=width, camera_id=camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 664, in __init__
+    with self._physics.contexts.gl.make_current() as ctx:
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/_render/base.py", line 120, in make_current
+    _CURRENT_THREAD_FOR_CONTEXT[id(self)]))
+
+RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+
+
+	 [[{{node graph/summaries/simulation/should_simulate_cheetah_run/test_main_cheetah_run/scan/while/simulate/environment/simulate/step}}]]
+	 [[{{node graph/collection/should_collect_train_main_cheetah_run/train_main_cheetah_run/scan/TensorArray_3}}]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zixuanhu/repository/planet/planet/training/running.py", line 201, in __iter__
+    for value in self._process_fn(self._logdir, *args):
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 73, in process
+    training.define_model, dataset, logdir, config):
+  File "/home/zixuanhu/repository/planet/planet/training/utility.py", line 194, in train
+    for score in trainer.iterate(config.max_steps):
+  File "/home/zixuanhu/repository/planet/planet/training/trainer.py", line 202, in iterate
+    summary, mean_score, global_step = sess.run(phase.op, phase.feed)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.UnknownError: RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+Traceback (most recent call last):
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 207, in __call__
+    ret = func(*args)
+
+  File "/home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py", line 94, in <lambda>
+    lambda a: self._batch_env.step(a)[:3], [action],
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in step
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in <listcomp>
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 89, in step
+    obs, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 455, in step
+    transition = self._env.step(action, *args, **kwargs)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 535, in step
+    observ, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 158, in step
+    obs[self._key] = self._render_image()
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 167, in _render_image
+    image = self._env.render('rgb_array')
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 316, in render
+    *self._render_size, camera_id=self._camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 214, in render
+    physics=self, height=height, width=width, camera_id=camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 664, in __init__
+    with self._physics.contexts.gl.make_current() as ctx:
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/_render/base.py", line 120, in make_current
+    _CURRENT_THREAD_FOR_CONTEXT[id(self)]))
+
+RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+
+
+	 [[node graph/summaries/simulation/should_simulate_cheetah_run/test_main_cheetah_run/scan/while/simulate/environment/simulate/step (defined at /home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py:95) ]]
+	 [[node graph/collection/should_collect_train_main_cheetah_run/train_main_cheetah_run/scan/TensorArray_3 (defined at /home/zixuanhu/repository/planet/planet/control/simulate.py:93) ]]
+
+Caused by op 'graph/summaries/simulation/should_simulate_cheetah_run/test_main_cheetah_run/scan/while/simulate/environment/simulate/step', defined at:
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 113, in <module>
+    tf.app.run(lambda _: main(args_), remaining)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 125, in run
+    _sys.exit(main(argv))
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 113, in <lambda>
+    tf.app.run(lambda _: main(args_), remaining)
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 86, in main
+    for unused_score in run:
+  File "/home/zixuanhu/repository/planet/planet/training/running.py", line 201, in __iter__
+    for value in self._process_fn(self._logdir, *args):
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 73, in process
+    training.define_model, dataset, logdir, config):
+  File "/home/zixuanhu/repository/planet/planet/training/utility.py", line 171, in train
+    score, summary, cleanups = model_fn(data, trainer, config)
+  File "/home/zixuanhu/repository/planet/planet/training/define_model.py", line 93, in define_model
+    name='summaries')
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2097, in cond
+    orig_res_t, res_t = context_t.BuildCondBranch(true_fn)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 1941, in BuildCondBranch
+    original_result = fn()
+  File "/home/zixuanhu/repository/planet/planet/training/define_model.py", line 91, in <lambda>
+    lambda: define_summaries.define_summaries(graph, config, cleanups),
+  File "/home/zixuanhu/repository/planet/planet/training/define_summaries.py", line 115, in define_summaries
+    name='should_simulate_' + params.task.name)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2097, in cond
+    orig_res_t, res_t = context_t.BuildCondBranch(true_fn)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 1941, in BuildCondBranch
+    original_result = fn()
+  File "/home/zixuanhu/repository/planet/planet/training/define_summaries.py", line 113, in <lambda>
+    name=name),
+  File "/home/zixuanhu/repository/planet/planet/training/utility.py", line 656, in simulate_episodes
+    expensive_summaries, gif_summary, name=name)
+  File "/home/zixuanhu/repository/planet/planet/control/simulate.py", line 45, in simulate
+    isolate_envs=isolate_envs)
+  File "/home/zixuanhu/repository/planet/planet/control/simulate.py", line 93, in collect_rollouts
+    initializer, parallel_iterations=1)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/functional_ops.py", line 724, in scan
+    maximum_iterations=n)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3556, in while_loop
+    return_same_structure)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3087, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3022, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3525, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/functional_ops.py", line 703, in compute
+    a_out = fn(packed_a, packed_elems)
+  File "/home/zixuanhu/repository/planet/planet/control/simulate.py", line 78, in simulate_fn
+    reset=tf.equal(step, 0))
+  File "/home/zixuanhu/repository/planet/planet/control/simulate.py", line 244, in simulate_step
+    step, score, length = _define_step()
+  File "/home/zixuanhu/repository/planet/planet/control/simulate.py", line 175, in _define_step
+    with tf.control_dependencies([batch_env.step(action)]):
+  File "/home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py", line 95, in step
+    [observ_dtype, tf.float32, tf.bool], name='step')
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 324, in new_func
+    return func(*args, **kwargs)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 468, in py_func
+    func=func, inp=inp, Tout=Tout, stateful=stateful, eager=False, name=name)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 282, in _internal_py_func
+    input=inp, token=token, Tout=Tout, name=name)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/gen_script_ops.py", line 151, in py_func
+    "PyFunc", input=input, token=token, Tout=Tout, name=name)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3300, in create_op
+    op_def=op_def)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1801, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+UnknownError (see above for traceback): RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+Traceback (most recent call last):
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 207, in __call__
+    ret = func(*args)
+
+  File "/home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py", line 94, in <lambda>
+    lambda a: self._batch_env.step(a)[:3], [action],
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in step
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in <listcomp>
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 89, in step
+    obs, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 455, in step
+    transition = self._env.step(action, *args, **kwargs)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 535, in step
+    observ, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 158, in step
+    obs[self._key] = self._render_image()
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 167, in _render_image
+    image = self._env.render('rgb_array')
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 316, in render
+    *self._render_size, camera_id=self._camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 214, in render
+    physics=self, height=height, width=width, camera_id=camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 664, in __init__
+    with self._physics.contexts.gl.make_current() as ctx:
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/_render/base.py", line 120, in make_current
+    _CURRENT_THREAD_FOR_CONTEXT[id(self)]))
+
+RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+
+
+	 [[node graph/summaries/simulation/should_simulate_cheetah_run/test_main_cheetah_run/scan/while/simulate/environment/simulate/step (defined at /home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py:95) ]]
+	 [[node graph/collection/should_collect_train_main_cheetah_run/train_main_cheetah_run/scan/TensorArray_3 (defined at /home/zixuanhu/repository/planet/planet/control/simulate.py:93) ]]
+
+
+WARNING:tensorflow:Worker 4fe84aa9-30e9-410d-a022-fa488ad1202f run 066: Failed.
+Traceback (most recent call last):
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.UnknownError: RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+Traceback (most recent call last):
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 207, in __call__
+    ret = func(*args)
+
+  File "/home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py", line 94, in <lambda>
+    lambda a: self._batch_env.step(a)[:3], [action],
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in step
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in <listcomp>
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 89, in step
+    obs, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 455, in step
+    transition = self._env.step(action, *args, **kwargs)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 535, in step
+    observ, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 158, in step
+    obs[self._key] = self._render_image()
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 167, in _render_image
+    image = self._env.render('rgb_array')
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 316, in render
+    *self._render_size, camera_id=self._camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 214, in render
+    physics=self, height=height, width=width, camera_id=camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 664, in __init__
+    with self._physics.contexts.gl.make_current() as ctx:
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/_render/base.py", line 120, in make_current
+    _CURRENT_THREAD_FOR_CONTEXT[id(self)]))
+
+RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+
+
+	 [[{{node graph/summaries/simulation/should_simulate_cheetah_run/test_main_cheetah_run/scan/while/simulate/environment/simulate/step}}]]
+	 [[{{node graph/collection/should_collect_train_main_cheetah_run/train_main_cheetah_run/scan/TensorArray_3}}]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 113, in <module>
+    tf.app.run(lambda _: main(args_), remaining)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 125, in run
+    _sys.exit(main(argv))
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 113, in <lambda>
+    tf.app.run(lambda _: main(args_), remaining)
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 86, in main
+    for unused_score in run:
+  File "/home/zixuanhu/repository/planet/planet/training/running.py", line 213, in __iter__
+    six.reraise(*exc_info)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/six.py", line 703, in reraise
+    raise value
+  File "/home/zixuanhu/repository/planet/planet/training/running.py", line 201, in __iter__
+    for value in self._process_fn(self._logdir, *args):
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 73, in process
+    training.define_model, dataset, logdir, config):
+  File "/home/zixuanhu/repository/planet/planet/training/utility.py", line 194, in train
+    for score in trainer.iterate(config.max_steps):
+  File "/home/zixuanhu/repository/planet/planet/training/trainer.py", line 202, in iterate
+    summary, mean_score, global_step = sess.run(phase.op, phase.feed)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.UnknownError: RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+Traceback (most recent call last):
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 207, in __call__
+    ret = func(*args)
+
+  File "/home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py", line 94, in <lambda>
+    lambda a: self._batch_env.step(a)[:3], [action],
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in step
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in <listcomp>
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 89, in step
+    obs, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 455, in step
+    transition = self._env.step(action, *args, **kwargs)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 535, in step
+    observ, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 158, in step
+    obs[self._key] = self._render_image()
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 167, in _render_image
+    image = self._env.render('rgb_array')
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 316, in render
+    *self._render_size, camera_id=self._camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 214, in render
+    physics=self, height=height, width=width, camera_id=camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 664, in __init__
+    with self._physics.contexts.gl.make_current() as ctx:
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/_render/base.py", line 120, in make_current
+    _CURRENT_THREAD_FOR_CONTEXT[id(self)]))
+
+RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+
+
+	 [[node graph/summaries/simulation/should_simulate_cheetah_run/test_main_cheetah_run/scan/while/simulate/environment/simulate/step (defined at /home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py:95) ]]
+	 [[node graph/collection/should_collect_train_main_cheetah_run/train_main_cheetah_run/scan/TensorArray_3 (defined at /home/zixuanhu/repository/planet/planet/control/simulate.py:93) ]]
+
+Caused by op 'graph/summaries/simulation/should_simulate_cheetah_run/test_main_cheetah_run/scan/while/simulate/environment/simulate/step', defined at:
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 113, in <module>
+    tf.app.run(lambda _: main(args_), remaining)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 125, in run
+    _sys.exit(main(argv))
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 113, in <lambda>
+    tf.app.run(lambda _: main(args_), remaining)
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 86, in main
+    for unused_score in run:
+  File "/home/zixuanhu/repository/planet/planet/training/running.py", line 201, in __iter__
+    for value in self._process_fn(self._logdir, *args):
+  File "/home/zixuanhu/repository/planet/planet/scripts/train.py", line 73, in process
+    training.define_model, dataset, logdir, config):
+  File "/home/zixuanhu/repository/planet/planet/training/utility.py", line 171, in train
+    score, summary, cleanups = model_fn(data, trainer, config)
+  File "/home/zixuanhu/repository/planet/planet/training/define_model.py", line 93, in define_model
+    name='summaries')
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2097, in cond
+    orig_res_t, res_t = context_t.BuildCondBranch(true_fn)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 1941, in BuildCondBranch
+    original_result = fn()
+  File "/home/zixuanhu/repository/planet/planet/training/define_model.py", line 91, in <lambda>
+    lambda: define_summaries.define_summaries(graph, config, cleanups),
+  File "/home/zixuanhu/repository/planet/planet/training/define_summaries.py", line 115, in define_summaries
+    name='should_simulate_' + params.task.name)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2097, in cond
+    orig_res_t, res_t = context_t.BuildCondBranch(true_fn)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 1941, in BuildCondBranch
+    original_result = fn()
+  File "/home/zixuanhu/repository/planet/planet/training/define_summaries.py", line 113, in <lambda>
+    name=name),
+  File "/home/zixuanhu/repository/planet/planet/training/utility.py", line 656, in simulate_episodes
+    expensive_summaries, gif_summary, name=name)
+  File "/home/zixuanhu/repository/planet/planet/control/simulate.py", line 45, in simulate
+    isolate_envs=isolate_envs)
+  File "/home/zixuanhu/repository/planet/planet/control/simulate.py", line 93, in collect_rollouts
+    initializer, parallel_iterations=1)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/functional_ops.py", line 724, in scan
+    maximum_iterations=n)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3556, in while_loop
+    return_same_structure)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3087, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3022, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3525, in <lambda>
+    body = lambda i, lv: (i + 1, orig_body(*lv))
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/functional_ops.py", line 703, in compute
+    a_out = fn(packed_a, packed_elems)
+  File "/home/zixuanhu/repository/planet/planet/control/simulate.py", line 78, in simulate_fn
+    reset=tf.equal(step, 0))
+  File "/home/zixuanhu/repository/planet/planet/control/simulate.py", line 244, in simulate_step
+    step, score, length = _define_step()
+  File "/home/zixuanhu/repository/planet/planet/control/simulate.py", line 175, in _define_step
+    with tf.control_dependencies([batch_env.step(action)]):
+  File "/home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py", line 95, in step
+    [observ_dtype, tf.float32, tf.bool], name='step')
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 324, in new_func
+    return func(*args, **kwargs)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 468, in py_func
+    func=func, inp=inp, Tout=Tout, stateful=stateful, eager=False, name=name)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 282, in _internal_py_func
+    input=inp, token=token, Tout=Tout, name=name)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/gen_script_ops.py", line 151, in py_func
+    "PyFunc", input=input, token=token, Tout=Tout, name=name)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3300, in create_op
+    op_def=op_def)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1801, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+UnknownError (see above for traceback): RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+Traceback (most recent call last):
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/script_ops.py", line 207, in __call__
+    ret = func(*args)
+
+  File "/home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py", line 94, in <lambda>
+    lambda a: self._batch_env.step(a)[:3], [action],
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in step
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/batch_env.py", line 85, in <listcomp>
+    for env, action in zip(self._envs, actions)]
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 89, in step
+    obs, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 455, in step
+    transition = self._env.step(action, *args, **kwargs)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 535, in step
+    observ, reward, done, info = self._env.step(action)
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 158, in step
+    obs[self._key] = self._render_image()
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 167, in _render_image
+    image = self._env.render('rgb_array')
+
+  File "/home/zixuanhu/repository/planet/planet/control/wrappers.py", line 316, in render
+    *self._render_size, camera_id=self._camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 214, in render
+    physics=self, height=height, width=width, camera_id=camera_id)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/mujoco/engine.py", line 664, in __init__
+    with self._physics.contexts.gl.make_current() as ctx:
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/dm_control/_render/base.py", line 120, in make_current
+    _CURRENT_THREAD_FOR_CONTEXT[id(self)]))
+
+RuntimeError: Cannot make context <dm_control._render.pyopengl.egl_renderer.EGLContext object at 0x7ff9bbdca400> current on thread <_DummyThread(Dummy-5, started daemon 140701903869696)>: this context is already current on another thread <_DummyThread(Dummy-4, started daemon 140701870298880)>.
+
+
+	 [[node graph/summaries/simulation/should_simulate_cheetah_run/test_main_cheetah_run/scan/while/simulate/environment/simulate/step (defined at /home/zixuanhu/repository/planet/planet/control/in_graph_batch_env.py:95) ]]
+	 [[node graph/collection/should_collect_train_main_cheetah_run/train_main_cheetah_run/scan/TensorArray_3 (defined at /home/zixuanhu/repository/planet/planet/control/simulate.py:93) ]]

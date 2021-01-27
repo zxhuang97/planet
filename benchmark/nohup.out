@@ -1,0 +1,6 @@
+2021-01-13 17:58:08.061541: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+E0113 17:59:58.121598 140414437504832 program.py:311] TensorBoard could not bind to port 1112, it was already in use
+ERROR: TensorBoard could not bind to port 1112, it was already in use
+2021-01-13 18:13:12.410860: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+TensorBoard 2.2.0 at http://0.0.0.0:1112/ (Press CTRL+C to quit)
+TensorBoard caught SIGTERM; exiting...

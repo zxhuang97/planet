@@ -38,7 +38,7 @@ def encoder(obs):
   return hidden
 
 
-def decoder(state, data_shape):
+def decoder(state, data_shape, dec_var=1.0):
   """Compute the data distribution of an observation from its state."""
   kwargs = dict(strides=2, activation=tf.nn.relu)
   hidden = tf.layers.dense(state, 1024, None)
@@ -49,6 +49,6 @@ def decoder(state, data_shape):
   mean = tf.layers.conv2d_transpose(hidden, 3, 6, strides=2)
   assert mean.shape[1:].as_list() == [64, 64, 3], mean.shape
   mean = tf.reshape(mean, tools.shape(state)[:-1] + data_shape)
-  dist = tfd.Normal(mean, 1.0)
+  dist = tfd.Normal(mean, dec_var)
   dist = tfd.Independent(dist, len(data_shape))
   return dist

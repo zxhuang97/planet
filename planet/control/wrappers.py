@@ -473,7 +473,6 @@ class CollectGymDataset(object):
     self._episode.append(transition)
     if done:
       episode = self._get_episode()
-      # info['episode'] = episode
       if self._outdir:
         filename = self._get_filename()
         self._write(episode, filename)
@@ -747,3 +746,16 @@ class Async(object):
       conn.close()
     except Exception:
       print('Failed to properly close connection.')
+
+
+def get_repeat(task_str):
+    domain, _ = task_str.split('_')
+    if domain in ['walker', 'finger']:
+        repeat = 2
+    elif domain in ['cheetah', 'cup', 'reacher']:
+        repeat = 4
+    elif domain in ['cartpole']:
+        repeat = 8
+    else:
+        raise NotImplementedError('{} env cannot be found'.format(domain))
+    return repeat

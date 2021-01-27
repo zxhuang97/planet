@@ -16,7 +16,6 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-
 import datetime
 import itertools
 import os
@@ -49,7 +48,7 @@ class Experiment(object):
 
   def __init__(
       self, basedir, process_fn, start_fn=None, resume_fn=None,
-      num_runs=None, worker_name=None, ping_every=30, resume_runs=True):
+      num_runs=None, worker_name=None, ping_every=30, resume_runs=True, single=False, planner=None, task_str=None):
     """Coordinate experiments with multiple runs processed by multiple workers.
 
     The experiment can be iterated over to yield runs. Runs can be iterated
@@ -78,6 +77,10 @@ class Experiment(object):
     self._ping_every = ping_every
     self._ping_stale = ping_every and 2 * ping_every
     self._resume_runs = resume_runs
+    self._single = single
+    self._planner = planner
+    self._task_str = task_str
+
 
   def __iter__(self):
     """Iterate over runs that need processing.
@@ -93,7 +96,13 @@ class Experiment(object):
     """
     for current_run in self._generate_run_numbers():
       logdir = self._basedir and os.path.join(
-          self._basedir, '{:05}'.format(current_run))
+          self._basedir, '{:03}'.format(current_run))
+      path = os.path.join(logdir, 'cem_traj.npy')
+      # if current_run==3:
+      #   continue
+
+      if self._planner and self._planner == 'dual1' and os.path.exists(path):
+        continue
       try:
         run = Run(
             logdir, self._process_fn, self._start_fn, self._resume_fn,
@@ -118,9 +127,12 @@ class Experiment(object):
     Yields:
       Run numbers.
     """
+    if self._single:
+      return [self._num_runs]
     if self._num_runs:
       # Don't wait initially and see if there are runs that are already stale.
-      runs = np.random.permutation(range(self._num_runs))
+      # runs = np.random.permutation(range(self._num_runs))
+      runs =range(self._num_runs)
       for run in runs:
         yield run + 1
       # At the end, wait for all dead runs to become stale, and pick them up.
@@ -272,8 +284,9 @@ class Run(object):
     """
     if not self._logdir:
       return
-    with tf.gfile.Open(os.path.join(self._logdir, 'DONE'), 'w') as file_:
-      file_.write('\n')
+    # with tf.gfile.Open(os.path.join(self._logdir, 'DONE'), 'w') as file_:
+    #   file_.write('\n')
+
 
   def _store_fail(self, message):
     """Mark run as failed by writing a FAIL file.
@@ -349,7 +362,7 @@ class Run(object):
     self._logger.warning('Exception:\n{}'.format(message))
     self._logger.warning('Failed.')
     try:
-      self._store_done()
+      # self._store_done()
       self._store_fail(message)
     except Exception:
       message = ''.join(traceback.format_exception(*sys.exc_info()))

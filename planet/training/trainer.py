@@ -103,7 +103,7 @@ class Trainer(object):
       checkpoint: Checkpoint name to load; None for newest.
     """
     variables = tools.filter_variables(include, exclude)
-    saver = tf.train.Saver(variables, keep_checkpoint_every_n_hours=2)
+    saver = tf.train.Saver(variables, keep_checkpoint_every_n_hours=2,max_to_keep=8)
     if load:
       self._loaders.append(saver)
     if save:
@@ -198,8 +198,8 @@ class Trainer(object):
         phase.feed[self._report] = self._is_every_steps(
             phase_step, phase.batch_size, phase.report_every)
         summary, mean_score, global_step = sess.run(phase.op, phase.feed)
-        if self._is_every_steps(
-            phase_step, phase.batch_size, phase.checkpoint_every):
+        if self._is_every_steps(phase_step, phase.batch_size, phase.checkpoint_every) \
+                or (phase.name=='test' and epoch == self._config.epoch-1):
           for saver in self._savers:
             self._store_checkpoint(sess, saver, global_step)
         if self._is_every_steps(
@@ -272,6 +272,8 @@ class Trainer(object):
       score.set_shape((None,))
       with tf.control_dependencies([score, summary]):
         submit_score = score_mean.submit(score)
+
+
       with tf.control_dependencies([submit_score]):
         mean_score = tf.cond(self._report, score_mean.clear, float)
         summary = tf.cond(
@@ -280,11 +282,15 @@ class Trainer(object):
                 name + '/score', mean_score, family='trainer')]),
             lambda: summary)
         next_step = self._global_step.assign_add(batch_size)
+        # if self._config.contra_unit=='simclr':
+        #   next_step = self._global_step.assign_add(batch_size*2)
+        # else:
       with tf.control_dependencies([summary, mean_score, next_step]):
         return (
             tf.identity(summary),
             tf.identity(mean_score),
             tf.identity(next_step))
+
 
   def _create_session(self):
     """Create a TensorFlow session with sensible default parameters.
@@ -333,6 +339,7 @@ class Trainer(object):
       saver: Saver used for checkpointing.
       global_step: Step number of the checkpoint name.
     """
+
     if not self._logdir or not saver:
       return
     tf.gfile.MakeDirs(self._logdir)

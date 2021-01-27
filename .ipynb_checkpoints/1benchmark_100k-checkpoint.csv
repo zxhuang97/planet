@@ -1,0 +1,5 @@
+Env,baseline4
+finger_spin,476+/-234
+cartpole_swingup,484+/-56
+cheetah_run,382+/-36
+cup_catch,362+/-277

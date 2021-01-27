@@ -29,6 +29,7 @@ def feed_forward(
     mean_activation=None, stop_gradient=False, trainable=True, units=100,
     std=1.0, low=-1.0, high=1.0, dist='normal'):
   """Create a model returning unnormalized MSE distribution."""
+  print('Head configuration: ', dist)
   hidden = state
   if stop_gradient:
     hidden = tf.stop_gradient(hidden)
@@ -52,7 +53,8 @@ def feed_forward(
     dist = tfd.Normal(mean, std)
     dist = tfd.TransformedDistribution(dist, tfp.bijectors.Tanh())
   elif dist == 'deterministic':
-    dist = tfd.Deterministic(mean)
+    return mean
+    # dist = tfd.Deterministic(mean)
   else:
     raise NotImplementedError(dist)
   dist = tfd.Independent(dist, len(data_shape))

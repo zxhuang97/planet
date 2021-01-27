@@ -1,5 +1,12 @@
 __pycache__/
 *.py[cod]
 *.egg-info
+*.txt
+log
+out
+events
+out_cem
+.idea/*
+.DS_Store
 /dist
 MUJOCO_LOG.TXT

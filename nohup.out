@@ -1,0 +1,1018 @@
+2020-12-04 08:03:43.761852: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+TensorBoard 2.3.0 at http://0.0.0.0:1112/ (Press CTRL+C to quit)
+W1204 08:06:20.149715 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:06:20.163546 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:06:20.294073 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:06:20.309489 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:06:20.532059 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:06:20.560147 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:06:20.930791 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:06:20.945981 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:06:21.376562 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:06:21.394324 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:06:21.717452 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:06:21.729082 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:06:22.058695 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:06:22.061085 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:06:22.171662 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:06:22.174154 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:07.647593 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:07.649721 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:07.764391 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:07.766943 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:07.881592 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:07.884054 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:07.997528 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:08.000108 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:08.079986 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:08.082672 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:08.140311 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:08.142733 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:08.284036 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:08.286515 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:08.416676 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:08.418931 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:08.548248 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:08.551628 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:11.122932 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:11.125340 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:11.190663 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:11.193082 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:11.324847 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:11.327179 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:11.432415 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:11.434958 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:11.548119 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:11.550673 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:11.900228 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:11.902650 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:11.994798 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:11.997424 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:07:12.088645 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:07:12.091129 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:19.489980 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:19.492297 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:19.712959 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:19.715449 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:19.834325 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:19.837044 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:19.996090 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:19.998527 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:20.181627 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:20.184176 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:20.243256 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:20.245337 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:24.973736 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:24.976625 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:25.074488 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:25.076990 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:25.252333 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:25.254952 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:25.459321 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:25.462108 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:25.573920 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:25.576527 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:15:25.687220 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:15:25.690043 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:16:02.053523 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:16:02.076003 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:16:05.609425 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:16:05.612070 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:16:05.825718 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:16:05.828084 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:16:05.948193 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:16:05.950178 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:16:06.094498 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:16:06.096960 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:16:06.228864 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:16:06.231703 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:16:41.121434 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:16:41.148426 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:17:03.265553 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:17:03.289348 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:17:05.874371 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:17:05.878888 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:17:33.406986 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:17:33.432751 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:17:56.186845 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:17:56.189899 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:17:56.316367 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:17:56.318420 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:17:56.399919 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:17:56.401872 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:17:56.525793 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:17:56.528717 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:18:17.479560 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:18:17.481920 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:18:17.585196 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:18:17.588444 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:18:17.714303 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:18:17.717753 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:18:17.789956 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:18:17.792303 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:18:58.041331 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:18:58.045347 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:18:58.119296 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:18:58.121822 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:18:58.201766 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:18:58.204294 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:18:58.288699 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:18:58.291598 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:21:26.018991 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:21:26.021815 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:21:26.107851 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:21:26.110533 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:21:26.210413 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:21:26.212267 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:21:26.303932 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:21:26.306454 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:22:06.207964 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:22:06.211127 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:22:06.298962 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:22:06.301846 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:22:06.409350 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:22:06.412213 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:22:06.546036 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:22:06.548770 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:22:28.976928 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:22:28.978793 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:22:29.088726 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:22:29.091344 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:22:29.189930 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:22:29.191733 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:22:29.267301 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:22:29.269196 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:24:28.646280 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:24:28.674186 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:24:36.135200 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:24:36.161726 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:24:38.620882 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:24:38.642784 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:24:39.210804 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:24:39.213486 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:24:39.324532 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:24:39.327246 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:24:39.412652 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:24:39.415683 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:24:39.528865 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:24:39.557551 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:00.471408 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:00.503563 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:01.457692 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:01.483677 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:04.812486 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:04.840941 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:04.986120 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:05.003139 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:05.100121 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:05.102969 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:05.204516 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:05.207084 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:05.330469 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:05.333077 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:07.740897 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:07.764552 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:09.624362 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:09.626390 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:09.739334 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:09.741247 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:09.855548 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:09.858304 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:25:28.589633 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:25:28.617422 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:27:14.490561 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:27:14.493182 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:27:14.624439 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:27:14.627245 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:27:14.721530 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:27:14.723882 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:27:17.449682 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:27:17.451950 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:27:17.532019 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:27:17.534462 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:27:17.610321 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:27:17.612531 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:27:57.972656 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:27:57.977487 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:27:58.099928 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:27:58.102255 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:27:58.208461 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:27:58.210912 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:30:13.347724 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:30:13.372520 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:30:25.294081 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:30:25.324488 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:30:28.327774 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:30:28.350110 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:30:47.280498 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:30:47.306798 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:32:33.224276 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:32:33.226351 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:32:33.361310 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:32:33.365003 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:32:33.474824 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:32:33.477439 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:33:01.446941 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:01.449514 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:33:01.592945 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:01.595224 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:33:01.849797 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:01.852589 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:33:31.371277 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:31.373878 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:33:31.504232 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:31.506733 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:33:31.939085 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:31.941615 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:33:45.154345 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:45.241043 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:45.243831 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:33:45.400974 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:45.403612 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:33:45.520177 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:45.522713 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:33:45.633077 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:33:45.635599 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:35:17.274661 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:35:17.277179 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:35:17.457638 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:35:17.460284 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:35:17.616310 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:35:17.618723 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:35:17.738532 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:35:17.741204 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:36:39.488751 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:36:39.490981 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:36:39.646331 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:36:39.648938 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:36:39.837069 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:36:39.839528 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:36:40.079204 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:36:40.081558 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:37:40.697942 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:37:40.702000 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:37:40.839504 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:37:40.842278 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:39:09.480992 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:39:09.584146 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:39:09.587682 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:39:09.718229 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:39:09.721500 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:39:09.889215 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:39:09.892452 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:39:10.090101 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:39:10.092808 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:39:10.241605 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:39:10.245866 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:39:10.451741 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:39:10.454252 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:43:04.590128 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:43:04.593363 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1204 08:43:04.722795 140363882690304 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1204 08:43:04.725135 140363882690304 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+2020-12-07 09:59:54.700758: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+TensorBoard 2.3.0 at http://0.0.0.0:1112/ (Press CTRL+C to quit)
+W1207 10:00:49.953696 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:49.968961 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:51.110607 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:51.112198 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:51.120425 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:51.121940 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:51.159590 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:51.172278 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:51.456481 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:51.458743 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:51.551042 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:51.553729 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:51.658018 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:51.659881 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:51.761813 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:51.764724 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:51.875546 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:51.878172 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:51.976433 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:51.978761 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:53.172066 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:53.174020 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:53.230586 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:53.232290 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:53.300780 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:53.303209 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:53.343468 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:53.345201 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:53.390477 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:53.392092 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:00:53.454082 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:00:53.456690 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:32.326658 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:32.328469 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:32.401430 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:32.403822 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:32.462867 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:32.465186 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:32.529543 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:32.531785 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:32.615759 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:32.618183 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:32.708532 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:32.710786 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:52.061665 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:52.063432 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:52.115012 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:52.116590 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:52.165357 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:52.166930 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:52.205078 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:52.206816 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:52.284692 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:52.287136 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:01:52.321065 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:01:52.322631 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:10.314186 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:10.327430 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:10.370862 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:10.383385 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:11.584231 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:11.585953 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:11.621975 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:11.640866 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:11.680700 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:11.694220 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:11.715817 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:11.717610 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:11.860101 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:11.862585 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:11.926377 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:11.928055 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:11.984978 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:11.987135 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:12.068065 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:12.070021 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 10:02:12.138044 139672363366144 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 10:02:12.140436 139672363366144 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+TensorBoard caught SIGTERM; exiting...
+terminate called without an active exception
+Fatal Python error: Aborted
+
+Thread 0x00007f07f0ff9700 (most recent call first):
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socket.py", line 586 in readinto
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 375 in handle_one_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/http/server.py", line 420 in handle
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 345 in handle
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 724 in __init__
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 364 in finish_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 654 in process_request_thread
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 864 in run
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x00007f07f1ffb700 (most recent call first):
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socket.py", line 586 in readinto
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 375 in handle_one_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/http/server.py", line 420 in handle
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 345 in handle
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 724 in __init__
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 364 in finish_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 654 in process_request_thread
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 864 in run
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x00007f07f17fa700 (most recent call first):
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socket.py", line 586 in readinto
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 375 in handle_one_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/http/server.py", line 420 in handle
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 345 in handle
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 724 in __init__
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 364 in finish_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 654 in process_request_thread
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 864 in run
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x00007f07f3fff700 (most recent call first):
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socket.py", line 586 in readinto
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 375 in handle_one_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/http/server.py", line 420 in handle
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 345 in handle
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 724 in __init__
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 364 in finish_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 654 in process_request_thread
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 864 in run
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x00007f07fab7d700 (most recent call first):
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socket.py", line 586 in readinto
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 375 in handle_one_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/http/server.py", line 420 in handle
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 345 in handle
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 724 in __init__
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 364 in finish_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 654 in process_request_thread
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 864 in run
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x00007f07f8df9700 (most recent call first):
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socket.py", line 586 in readinto
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 375 in handle_one_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/http/server.py", line 420 in handle
+  File "/home/zixuanhu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 345 in handle
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 724 in __init__
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 364 in finish_request
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/socketserver.py", line 654 in process_request_thread
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 864 in run
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Current thread 0x00007f08019a7700 (most recent call first):
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 700 in list_directory_v2
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 671 in list_directory
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 750 in walk_v2
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 773 in walk_v2
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/io_wrapper.py", line 183 in ListRecursivelyViaWalking
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/io_wrapper.py", line 232 in <genexpr>
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/plugin_event_multiplexer.py", line 202 in AddRunsFromDirectory
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/data_ingester.py", line 100 in _reload
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 864 in run
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x00007f08a0352740 (most recent call first):
+
+Thread 0x000055fd5c6bde60 (most recent call first):
+
+Thread 0x00007f0801ec4e48 (most recent call first):
+
+Thread 0x00007f0887f41298 (most recent call first):
+
+Thread 0x000055fd5a164200 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x000055fd5a164210 (most recent call first):
+
+Thread 0x2020-12-08 21:55:48.240516: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+TensorBoard 2.3.0 at http://0.0.0.0:1112/ (Press CTRL+C to quit)
+W1208 21:56:22.411029 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:22.414787 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:22.561218 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:22.566866 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:22.651154 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:22.656928 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:22.758864 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:22.761384 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:22.960916 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:22.963378 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:23.086675 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:23.089140 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:23.269106 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:23.271585 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:23.364532 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:23.366937 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:46.932596 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:46.935427 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:47.092263 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:47.095213 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:47.235744 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:47.238744 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:47.401880 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:47.404377 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:47.562770 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:47.565267 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:47.744814 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:47.747180 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:47.871426 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:47.873892 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:56:48.038433 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:56:48.041122 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:30.176019 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:30.178220 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:30.290705 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:30.293556 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:30.438488 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:30.441056 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:30.586301 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:30.588819 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:30.713461 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:30.716144 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:30.877610 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:30.880039 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:31.126525 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:31.128874 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:31.212453 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:31.214736 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:35.452438 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:35.481115 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:35.752935 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:35.755660 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:35.926565 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:35.929101 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:36.105905 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:36.108553 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:36.430231 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:36.433234 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:57:57.121580 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:57:57.139267 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:17.034753 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:17.055104 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:21.670958 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:21.702373 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:21.871757 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:21.874786 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:21.944102 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:21.946837 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:22.075363 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:22.078096 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:22.179264 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:22.182116 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:24.751068 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:24.766234 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:24.866173 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:24.868952 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:24.948767 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:24.950794 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:25.046584 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:25.048271 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:25.144552 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:25.146270 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:44.024549 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:44.041798 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:47.163190 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:47.182808 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:47.493820 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:47.496495 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:47.615130 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:47.617626 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:47.853261 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:47.855843 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:58:47.990640 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:58:47.993338 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:06.734187 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:06.754975 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:11.949373 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:11.979735 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:12.106790 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:12.109403 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:12.212719 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:12.214818 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:12.379001 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:12.381168 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:12.524031 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:12.526391 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:31.142756 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:31.172306 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:54.301335 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:54.303733 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:54.453127 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:54.455588 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:54.714498 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:54.716903 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:54.878461 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:54.880738 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:55.041277 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:55.043797 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:55.255918 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:55.258516 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 21:59:55.358700 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 21:59:55.360853 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:00.064392 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:00.067010 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:00.275735 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:00.278422 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:00.418775 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:00.421532 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:00.543505 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:00.546237 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:00.816191 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:00.818911 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:00.933703 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:00.936256 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:42.279049 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:42.281535 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:42.432833 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:42.435004 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:42.651072 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:42.653752 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:42.854568 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:42.857125 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:43.009939 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:43.012313 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:00:43.100512 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:00:43.102428 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:09.104680 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:09.106709 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:09.181212 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:09.183827 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:09.276994 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:09.279144 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:09.380460 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:09.393287 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:36.476844 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:36.479543 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:36.579777 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:36.582181 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:36.762568 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:36.765363 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:36.922160 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:36.924679 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:36.986316 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:36.988551 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:59.713611 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:59.716641 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:01:59.913805 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:01:59.916969 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:00.005327 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:00.008292 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:00.054640 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:00.058645 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:00.164570 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:00.166903 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:21.580111 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:21.583208 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:21.683674 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:21.685923 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:21.759827 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:21.762512 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:21.872492 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:21.874882 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:26.144277 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:26.146864 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:26.230706 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:26.232898 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:26.401689 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:26.404603 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:26.488653 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:26.491276 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 22:02:26.594468 140156330370816 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 22:02:26.597189 140156330370816 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+TensorBoard caught SIGTERM; exiting...
+2020-12-09 09:25:20.247966: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+TensorBoard 2.3.0 at http://0.0.0.0:1112/ (Press CTRL+C to quit)
+W1209 09:26:28.414110 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:26:28.416602 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:26:28.694325 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:26:28.696653 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:26:28.999607 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:26:29.002136 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:26:29.287338 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:26:29.289853 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:26:29.477358 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:26:29.479793 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:27:07.052750 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:27:07.055949 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:27:07.527854 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:27:07.530772 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:27:07.678675 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:27:07.681138 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:27:07.829416 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:27:07.831675 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:27:07.948441 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:27:07.951014 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:27:52.165304 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:27:52.168137 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:27:52.447821 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:27:52.450313 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:27:52.697660 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:27:52.700074 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:27:52.873466 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:27:52.876034 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:27:53.039738 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:27:53.042401 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:28:35.317177 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:28:35.362319 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:28:35.364895 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:28:35.501059 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:28:35.503616 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:28:35.647952 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:28:35.650606 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:28:35.795100 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:28:35.797396 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:30:28.690948 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:30:28.694845 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:30:29.064407 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:30:29.068673 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:30:29.252427 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:30:29.256596 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:30:29.508214 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:30:29.510791 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:32:06.648129 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:32:06.650489 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:32:06.870594 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:32:06.873484 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:32:07.018161 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:32:07.021033 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:32:07.212438 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:32:07.215281 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:33:21.488695 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:33:21.491039 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:33:21.603313 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:33:21.606060 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:34:55.117681 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:34:55.237657 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:34:55.240391 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:34:55.370537 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:34:55.373195 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:34:55.504544 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:34:55.507079 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:34:55.638539 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:34:55.641122 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:34:55.764121 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:34:55.766847 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:34:55.912228 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:34:55.915021 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:38:33.154795 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:38:33.157418 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:38:33.583080 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:38:33.585725 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:38:39.229942 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:38:39.253668 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:38:39.428026 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:38:39.430706 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:38:39.495929 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:38:39.498117 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:38:39.644437 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:38:39.646962 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:38:39.756079 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:38:39.758515 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:38:39.799777 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:38:39.848198 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:38:39.850512 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:39:09.787623 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:39:09.809257 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:39:42.773678 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:39:42.796736 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:39:53.692916 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:39:53.718505 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:39:54.158013 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:39:54.161039 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:39:54.261620 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:39:54.264401 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:39:54.368658 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:39:54.371137 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:39:54.456869 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:39:54.459655 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:39:54.537490 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:39:54.661870 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:39:54.664891 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:40:00.771675 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:40:00.797349 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:40:00.930302 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:40:00.933352 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:40:01.019000 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:40:01.022134 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:40:01.068973 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:40:01.071507 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:40:01.127073 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:40:01.184595 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:40:01.187456 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:40:01.378762 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:40:01.404649 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:40:28.729702 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:40:28.754949 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:40:30.216368 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:40:30.242933 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:00.652992 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:00.675017 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:07.025362 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:07.053239 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:07.238161 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:07.241198 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:07.310199 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:07.313309 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:07.422939 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:07.425471 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:07.505024 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:07.509099 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:07.562045 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:07.608552 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:07.611006 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:15.096996 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:15.120646 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:15.619569 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:15.621886 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:15.778311 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:15.781395 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:15.877911 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:15.880771 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:15.986164 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:15.989590 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:16.043931 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:16.095196 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:16.146281 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:16.148988 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:41:47.159884 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:41:47.186075 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:42:22.201000 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:42:22.234290 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:42:23.208745 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:42:23.237426 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:42:34.559410 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:42:34.586910 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:42:34.756364 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:42:34.769264 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:42:34.979305 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:42:34.981693 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:42:35.139855 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:42:35.142051 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:42:35.506652 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:42:35.509572 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:42:35.647707 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:42:35.650475 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:43:16.679448 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:43:16.683879 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:43:17.250078 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:43:17.252299 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:43:17.459625 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:43:17.462667 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:43:17.600630 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:43:17.603398 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:43:49.729187 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:43:49.757221 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:43:59.689431 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:43:59.709666 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:00.208546 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:00.211416 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:00.715692 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:00.718449 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:00.884532 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:00.887188 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:00.964317 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:00.966798 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:39.154645 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:39.158784 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:39.394517 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:39.397087 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:39.549549 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:39.552078 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:39.685197 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:39.687944 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:39.829071 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:39.832323 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:39.939618 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:39.942355 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:40.125507 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:40.128035 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:44:40.210259 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:40.364017 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:40.518504 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:44:40.521154 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:45:28.757191 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:45:28.760651 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:45:29.023787 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:45:29.026765 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:45:29.467248 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:45:29.470247 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:45:29.608578 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:45:29.957014 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:45:30.579854 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:45:30.582830 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:18.135192 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:18.138353 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:18.639442 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:18.642606 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:19.069695 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:19.072325 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:19.615064 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:19.617897 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:20.399270 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:20.402401 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:20.819876 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:20.822778 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:21.163621 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:21.166511 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:21.894102 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:21.897054 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:22.923220 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:22.926159 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:23.281142 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:23.757441 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:24.086872 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:24.089698 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:34.974400 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:34.978352 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:35.792988 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:35.795762 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:36.416231 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:36.419255 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:36.907919 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:36.910547 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:37.355412 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:37.358499 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:37.553246 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:37.555952 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:46:38.079010 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:38.558595 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:39.076937 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:46:39.079910 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:47:51.572798 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:47:51.575958 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:47:51.788347 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:47:51.790940 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:47:51.939136 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:47:51.941797 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 09:47:52.173212 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:47:52.410794 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:47:52.805216 140554396083968 plugin_event_accumulator.py:323] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1209 09:47:52.809676 140554396083968 plugin_event_accumulator.py:335] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1209 23:59:04.149663 140554396083968 plugin_event_multiplexer.py:263] Deleting accumulator 'aug_sym/003/test'
+W1209 23:59:04.177530 140554396083968 plugin_event_multiplexer.py:263] Deleting accumulator 'aug_sym/001/test'
+W1209 23:59:04.177699 140554396083968 plugin_event_multiplexer.py:263] Deleting accumulator 'aug_sym/003/train'
+W1209 23:59:04.177872 140554396083968 plugin_event_multiplexer.py:263] Deleting accumulator 'aug_sym/001/train'
+W1209 23:59:04.177993 140554396083968 plugin_event_multiplexer.py:263] Deleting accumulator 'aug_sym/005/train'
+W1209 23:59:04.178076 140554396083968 plugin_event_multiplexer.py:263] Deleting accumulator 'aug_sym/005/test'
+Exception in thread Reloader:
+Traceback (most recent call last):
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/data_ingester.py", line 104, in _reload
+    self._multiplexer.Reload()
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/plugin_event_multiplexer.py", line 259, in Reload
+    Worker()
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/plugin_event_multiplexer.py", line 237, in Worker
+    accumulator.Reload()
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/plugin_event_accumulator.py", line 181, in Reload
+    for event in self._generator.Load():
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/directory_watcher.py", line 90, in Load
+    for event in self._LoadInternal():
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/directory_watcher.py", line 120, in _LoadInternal
+    for event in self._loader.Load():
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/event_file_loader.py", line 192, in Load
+    for event in super(EventFileLoader, self).Load():
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/event_file_loader.py", line 166, in Load
+    for record in super(LegacyEventFileLoader, self).Load():
+  File "/home/zixuanhu/anaconda3/envs/reg/lib/python3.6/site-packages/tensorboard/backend/event_processing/event_file_loader.py", line 141, in Load
+    yield next(self._iterator)
+RuntimeError: Could not allocate bytes object!
+
+TensorBoard caught SIGTERM; exiting...
+2020-12-14 05:05:01.669592: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+TensorBoard 2.3.0 at http://0.0.0.0:1112/ (Press CTRL+C to quit)
+TensorBoard caught SIGTERM; exiting...
+Traceback (most recent call last):
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/home/zixuanhu/repository/planet/planet/__init__.py", line 19, in <module>
+    from . import control
+  File "/home/zixuanhu/repository/planet/planet/control/__init__.py", line 19, in <module>
+    from . import planning
+  File "/home/zixuanhu/repository/planet/planet/control/planning.py", line 19, in <module>
+    import tensorflow as tf
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import pywrap_tensorflow  # pylint: disable=unused-import
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/__init__.py", line 47, in <module>
+    import numpy as np
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/numpy/__init__.py", line 140, in <module>
+    from . import core
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/numpy/core/__init__.py", line 101, in <module>
+    from . import _internal
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/site-packages/numpy/core/_internal.py", line 7, in <module>
+    import ast
+  File "/home/zixuanhu/anaconda3/envs/tf1/lib/python3.6/ast.py", line 27, in <module>
+    from _ast import *
+KeyboardInterrupt
