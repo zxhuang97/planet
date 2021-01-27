@@ -294,7 +294,6 @@ class Trainer(object):
 
   def _create_session(self):
     """Create a TensorFlow session with sensible default parameters.
-
     Returns:
       Session.
     """

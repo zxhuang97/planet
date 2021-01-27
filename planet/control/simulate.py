@@ -57,7 +57,6 @@ def simulate(
     summary = tf.summary.merge(summaries)
     return summary, return_mean, cleanup
 
-
 def collect_rollouts(
         step, env_ctor, duration, num_agents, agent_config, isolate_envs):
     batch_env = define_batch_env(env_ctor, num_agents, isolate_envs)

@@ -26,7 +26,6 @@ import re
 import sys
 import traceback
 
-# import imageio
 import numpy as np
 import skimage.io
 import tensorflow as tf

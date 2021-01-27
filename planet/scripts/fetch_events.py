@@ -76,6 +76,7 @@ def export_image(basename, steps, times, values):
 
 
 def process_logdir(logdir, args):
+<<<<<<< HEAD
     clean = lambda text: re.sub('[^A-Za-z0-9_]', '_', text)
     basename = os.path.join(args.outdir, clean(logdir))
     name = basename + '*' + clean(args.tags) + '*'
@@ -109,6 +110,32 @@ def process_logdir(logdir, args):
     except Exception:
         safe_print('Exception', logdir)
         safe_print(traceback.print_exc())
+=======
+  clean = lambda text: re.sub('[^A-Za-z0-9_]', '_', text)
+  basename = os.path.join(args.outdir, clean(logdir))
+  if len(tf.gfile.Glob(basename + '*')) > 0 and not args.force:
+    safe_print('Exists', logdir)
+    return
+  try:
+    safe_print('Start', logdir)
+    reader = create_reader(logdir)
+    for tag in reader.Runs()['run']['tensors']:  # tensors -> scalars
+      print(tag)
+      if fnmatch.fnmatch(tag, args.tags):
+        steps, times, values = extract_values(reader, tag)
+        filename = '{}___{}'.format(basename, clean(tag))
+        export_scalar(filename, steps, times, values)
+    # for tag in tags['images']:
+    #   if fnmatch.fnmatch(tag, args.tags):
+    #     steps, times, values = extract_values(reader, tag)
+    #     filename = '{}___{}'.format(basename, clean(tag))
+    #     export_image(filename, steps, times, values)
+    del reader
+    safe_print('Done', logdir)
+  except Exception:
+    safe_print('Exception', logdir)
+    safe_print(traceback.print_exc())
+>>>>>>> cdd2699fd078dfff91ab3128f7e5b82bcac9ebd2
 
 
 def main(args):

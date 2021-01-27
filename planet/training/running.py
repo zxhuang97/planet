@@ -100,7 +100,6 @@ class Experiment(object):
       path = os.path.join(logdir, 'cem_traj.npy')
       # if current_run==3:
       #   continue
-
       if self._planner and self._planner == 'dual1' and os.path.exists(path):
         continue
       try:

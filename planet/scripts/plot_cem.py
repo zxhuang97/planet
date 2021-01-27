@@ -61,7 +61,6 @@ def planning_diagnostic(buffer):
     return merged
 # def cal_rela(pred, tgt):
 
-
 def iter_diagnostic(trajs, pref=None, plot=False):
     hor_trajs = horizon_sum(trajs, 12)  # N*1000*2
     hor_gds = hor_trajs[:, :, 0]

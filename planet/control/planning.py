@@ -301,7 +301,6 @@ def cross_entropy_method_eval(
         iteration, tf.range(iterations), (mean, stddev, collect), back_prop=False)
     mean, stddev = mean[-1], stddev[-1]  # Select belief at last iterations.
     return mean
-
 def cross_entropy_method_dual1(
         cell, objective_fn, state, obs_shape, action_shape, horizon, graph, logdir, task,
         amount=1000, topk=100, iterations=10, min_action=-1, max_action=1, eval_ratio=0.05, env_state=None):

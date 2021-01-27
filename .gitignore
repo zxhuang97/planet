@@ -1,7 +1,10 @@
 __pycache__/
 *.py[cod]
 *.egg-info
+<<<<<<< HEAD
 *.txt
+=======
+>>>>>>> cdd2699fd078dfff91ab3128f7e5b82bcac9ebd2
 log
 out
 events

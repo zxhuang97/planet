@@ -20,6 +20,7 @@ python3 -m planet.scripts.test --logdir log/contra_step_hard/ \
 --params "{tasks: [cheetah_run],r_loss: contra,reward_loss_scale: 10.0,train_steps: 0,planner: cem_eval}" \
 --num_runs 1 --resume_runs True
 
+
 For debugging:
 
 python3 -m planet.scripts.train \

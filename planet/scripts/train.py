@@ -39,7 +39,6 @@ import os
 import sys
 #
 # os.environ["CUDA_VISIBLE_DEVICES"] = "2"
-
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.abspath(__file__)))))
 

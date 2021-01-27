@@ -271,7 +271,7 @@ class InGraphBatchEnv(object):
           self._reward.assign(reward),
           self._env_state.assign(env_state),
           self._done.assign(tf.to_int32(done)))
-
+      
   def reset(self, indices=None):
     """Reset the batch of environments.
 

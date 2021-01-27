@@ -326,6 +326,7 @@ def compute_objectives(posterior, prior, target, graph, config, trainer):
     return objectives, cstr_pct
 
 
+
 def contra_step_lossV1(pred, tgt, temp=10.0):
     # Step-wise contrastive loss
     pred1, pred2 = tf.split(pred, 2, axis=0)

@@ -110,7 +110,6 @@ class AsyncEvaluator:
                 results.put((id_, score))
         except Exception:
             pass
-
     def _evaluate(self, env, state, actions):
         env.reset()
         with env.physics.reset_context():

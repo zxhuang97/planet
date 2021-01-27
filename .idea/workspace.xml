@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pip" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f36d65cb-571b-4401-815d-d2d210097f6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/planet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/FAIL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/contra_step.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/contra_traj12.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/hard_negative.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/log_likeli.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/model.ckpt-5005000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/model.ckpt-5005000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/model.ckpt-5005000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test/events.out.tfevents.1602945146.compute-0-17.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test/events.out.tfevents.1603978079.compute-0-19.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test/events.out.tfevents.1603978524.compute-0-19.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test/events.out.tfevents.1603984106.Marcuss-MacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test/events.out.tfevents.1603984225.Marcuss-MacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test/events.out.tfevents.1603988443.Marcuss-MacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test/events.out.tfevents.1603995640.Marcuss-MacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test/events.out.tfevents.1603995711.Marcuss-MacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T103207-0a282cfb20ef448ebc3099ec6231e1cc.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T103207-f0d4fe779b5a4f53b57b0cc387e5d0ff.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T103208-118e0f928c504e5eb7ff2689c7b865fc.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T103208-439b44aefe4f45d5ba44b6e14ebf46b0.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T103208-b877eed94e8c4dcfaf2b4041b82932a2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T104624-8d9f435405454504ad02d3b66eb550f8.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T110001-659f1a450957418690258948ccf833d0.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T111338-2e899f99bfb046ca926e2090ed4c3af1.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T112721-ad87a7a510fc4288901e32071e19f3bd.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T114107-c3c14228900d4d879b797a516c5ff12c.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T115447-4aaf3394bf4747a7bfdb4436fc67efa8.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T120830-6195f85fa9f846008fb30ea29e5baac6.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T122215-ce3c50e9b9ff41c2969332af9279117d.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T123555-9b9c8e1b75f94691be0731d64f354498.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T124943-566568bf0dbe4b39bd6fbe50fda2fabd.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T130331-3e26da6f458d4459ab28a108771dd8bd.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T131718-f18d640b1f434d2ca690b6a995d0141b.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T133106-4d2bffa4d34c4a0cb02e518d89360330.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T134449-f98489a927b44b719e8794bf189a3020.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T135838-64e204fba46f48d0b87fc26fcae864a1.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T141222-98fa4038878846eaad2841af7746f32a.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T142609-4187e56fed4c43a69ac10daa76131731.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T143957-6c1c4dfa5a824724901464bae3cbf6d6.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T145350-a96c3c04674849319711435b871ef275.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T150739-7cd4b4a1f7b84d43902ede0b169eb68a.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T152132-0ea99764d5504d0db0dbe5ffbc31a82c.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T153524-578d0daf428049b8ab3c4687ef281378.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T154917-98a1695a80e74904b0aa7c7d30a7d672.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T160311-3feb715b0d4b4aa48f49b50c50d3ea57.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T161702-736c429d0dca40f1b68088d0309df66f.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T163054-815f5c71383141f89c2624436f4bf795.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T164447-5b6846aeb56d433fb76851f6ca855634.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T165848-948edd6dcc2a43ca91071273a917fc7c.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T171245-36b049c3bfbc43949714f38a69524d2b.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T172649-9aa14948d8e94a37a3ea9a3724e3f455.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T174047-afc31eb64bb34330a7f08d2878d07ab6.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T175514-7909cf0fc60b459aba26fe46d403cdc6.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T180952-cf391852d99f44eca2a0b4b067bf01d8.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T182428-b710a4d6bdcb4ebba13fa8dacefc3df4.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T183906-d53a21601f8e40b69106e686f89ca136.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T185344-46ec1ba23d9d4bbfb4779a7c59eaab48.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T190823-be9ab05c467d4ddb851f5c0d17377492.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T192305-36aa1a560950479c991f0197d4a65ac3.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T193742-51bee12f5e4c4238ad1e2cbde90243c7.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T195221-a871ac80ff1f412d888fd973a7e56c72.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T200700-627c6b74d11444718ed2245d48251431.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T202140-4f496628797c4d19a2fe8002e60b6e7a.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T203620-1e63b74dabef400884f8fe51e8e74aba.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T205101-e57a1857edd946a6a2b50d9cd81298de.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T210551-bf37c7dd1a934f3a8a5bb09a98171985.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T212050-784ee0778fe24ef8a3f2f82f7852999f.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T213549-5393a9fa82684b4199dfb095d3d9c84c.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T215029-6c5003bac4b7406f87dcd90384acfdca.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T220507-c948205672674dea970f7f7d216abf88.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T221944-4d5c31477dd248e29cbcefaee362bc70.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T223423-991bd013229848f786a11db202808947.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T224901-ff124073ee8c4b3cb333802fa02d9ede.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T230336-cc84396a8a964d2ebf8d6e851dd8d30d.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T231815-37ff538ff48d4721bd1373e9a7eff69d.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T233253-b37756bb52a44673adcbf93228e61a92.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201017T234729-816e56f9d81f4c6e9ae84990930c3855.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T000208-c544360dbd284630acafcfadecbcd53b.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T001644-7eb8820ad8c8464f93070fd45338f7c4.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T003120-1b04b6a8d2914159ba51acb4df26ca16.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T004558-a51cf3536a8848a999860413be134680.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T010038-d278e2064e914465bcfd41898c2122e2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T011513-de445b5bf0c04d8ea2a138a5586b7afb.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T012950-4ed7b9f9b612473e9dc9dddb2d4a5bc3.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T014427-1ddbc19f414b4e7ea3191ce34a2736c5.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T015830-f36ca866874f40f3ac4a6dd7a7c7292d.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T021216-27d4e7e1a9ee4ce4a6492de5a2808e72.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T022617-fd6d4a6f3da5433d967967795a80d252.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T024021-1e710ef86fd241d4be53ff0c4af03fc2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T025423-c6a54e0d88fe42c9b31d5cf885d40245.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T030825-cf40cf28001a40c1ad3b90e51258f962.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T032234-348e2db6265f4a68aaf8e2873da09c22.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T033648-c11527714d2641dfb35da82c4c65a7c9.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T035103-82fbb7c7d7f64f1ea750f9e5a62d282c.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T040446-e23fbb92e48a4bffaa7fe977341f317b.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T041756-be27e5aee9a04010b02311383327fd8a.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T043101-a7c82e02e63c45c08d692c448882cee8.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T044441-2ec0f8c3a7ad492c9a04dad56b4bda4f.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T045814-5a25dd48e04946ad85d40c0f37798d2c.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T051120-61ea5474fcdb4c76b5f6ec15b5fdb109.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T052427-f9cc82bf57f9456ca42b3be516b34fd4.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T053743-b5170e308a71455ab419c755ab53dcbe.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T055050-9317da7f87ca4988959f78487a2818c4.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T060357-f6ec8cf690b64403ad31f1c4d160c4e6.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T061704-4620012386c04168a43188b76b11f51d.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T063011-9e847403b4f14943a163202af2e1104d.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T064317-264845e1bc794419a6367d5ec4151de0.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T065624-146ac829d6964972ad5cd8de2adcbb2a.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T070932-4d702221ca2b4b81b0a0847a5609bb42.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T072239-6c52b52e4655423e952f75a99969007f.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T073547-ff8bd6461f914375968340398cda4005.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T074857-226003c7c3e44349a4e949d1dddf9a15.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T080206-0eeaddf004f64feab4f6c82d6a2cac38.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T081515-b36f1b00bc5643d4a7dde1427f3dd326.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T082825-b33c41a28e094e0dba283c147e42d233.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T084133-dd2b8dd70b3b45a7b4099358da205b3e.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T085442-9aba8978013048f8a822b1bc4d49e7d2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T090751-b9167b969fcf4e94a380ee18e0c86b39.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T092100-63e42432d67b41de93d0e83f66ba1428.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T093407-8f9f74b260b84f069a83657d0c5382a2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T094715-ac490117777f432ba9f58906dcdf7995.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T100026-cf9dd028349244059fffa6a9111e2dfd.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T101334-0c177ab2732b40bfa00f8da3bbcc37c3.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T102642-3f75c2f9b4364ed3b557baebe997542f.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T103949-bc54b36a372a42daa799daa4a3bc81ce.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T105259-04941305b7dc487e9300cc92c198d0c6.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T110608-6f41415d90054a1b97ad35ed8477e52a.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T111918-27c30dda1e2043f58bb1a08b1dfaf6f1.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/test_episodes/20201018T113226-2f5dec4fca5b4e3bbc8df41bc9d7d673.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/train/events.out.tfevents.1603984105.Marcuss-MacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/train/events.out.tfevents.1603984223.Marcuss-MacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/train/events.out.tfevents.1603995639.Marcuss-MacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/train_episodes/20201029T225754-8757a2d631a84ca08e7a9f5766719278.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/train_episodes/20201029T225755-b9d2321a77db41259d80011f09437abf.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/train_episodes/20201029T225756-2c154dd27c324ec1870495c35502c922.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/train_episodes/20201029T225757-0bee75e8d8914b878cbe880170f90143.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/001/train_episodes/20201029T225758-0f44636d467847b7b0fbeed5f8322d30.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/test_episodes/20201104T194742-a782b59beaab4e51ad742a80e11575ba.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/test_episodes/20201104T194744-1cd3a96e56f54d58adc5fbb8643a8022.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/test_episodes/20201104T194745-127e029a49384b77b10231da861c8fed.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/test_episodes/20201104T194746-d762405fba634ade8428a8fa4181a6fc.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/test_episodes/20201104T194747-3a6f9ddea6fd42828ce3f5d07cbc93b5.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/train_episodes/20201104T194748-75d909ab996b4b4db0952538b40a5fca.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/train_episodes/20201104T194749-300a2eae67c040fbb1cb874391b3b710.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/train_episodes/20201104T194750-fb0a0e859f1b4ec1b2014d6b607ff7c0.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/train_episodes/20201104T194751-3705fbbf3f664b1a834c3867d6f7f748.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/152/train_episodes/20201104T194752-d89927d4670b4359b822e43e41404daf.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/test_episodes/20201030T022721-66b8fc240ff7451ab35962f45ca35cf4.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/test_episodes/20201030T022722-692a47fc63d64adb928ce4f056105df2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/test_episodes/20201030T022723-e72e7aef98e34bb68a2ca10ec182f0d2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/test_episodes/20201030T022724-a8cda6f044eb400f8e3b92c565125632.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/test_episodes/20201030T022725-0d0e65ca9b6740ca85bf84def0610cf3.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/train_episodes/20201030T022726-69306061f14e44c9b341d870be5a6bf4.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/train_episodes/20201030T022727-eff88ba52b9f4d369888708bf29038f3.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/train_episodes/20201030T022728-ea8bb76525f74fcb8f4a4b5fa591eebf.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/train_episodes/20201030T022729-96097878f92e4018a09e49a24873ec9b.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/208/train_episodes/20201030T022730-7e86f8cadcd445d38c5e00ce6f4ee669.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/271/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/test_episodes/20201104T233504-672b48a03ec94f18a764cba425153fa7.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/test_episodes/20201104T233505-99979911a6a848a697ccff2edc7047fb.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/test_episodes/20201104T233506-7e2d08643d934570b438ee454ed6d6ec.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/test_episodes/20201104T233507-8e3cd63f96ce49129a7d2cdaac1548d4.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/test_episodes/20201104T233508-db09c26544a9407d8b0b5be51d3c2eec.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/train_episodes/20201104T233509-ba92f465cd7c4082b8f0a27f7fd00198.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/train_episodes/20201104T233510-baaf11a87cce4669bec77a70e1dfba84.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/train_episodes/20201104T233511-020ef74c450548cf9ab50abe91c086b3.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/train_episodes/20201104T233513-c9146867628f43908bc0d378ef02caa1.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/301/train_episodes/20201104T233514-8fdb12d8c3dd4e39b0849703916187c8.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/309/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/test_episodes/20201104T210402-6c51c1b60fc64d9fb329cb6b5869264c.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/test_episodes/20201104T210403-91a9e67871e24a81b3f13cb0c977799c.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/test_episodes/20201104T210404-9ddcfd691d344d3693e7bc83afc15c01.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/test_episodes/20201104T210405-2e6f5dc842104fdd88dcda6eaa583360.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/test_episodes/20201104T210406-60615504fd22427088b7ce582eed52f5.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/train_episodes/20201104T210407-b0571c36b5814d65b298d088dc4d1d95.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/train_episodes/20201104T210409-4aaa12da964a4d9cb32b1d2cfae8a3ba.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/train_episodes/20201104T210410-39369fafd81f4ef3bb4378bd92614247.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/train_episodes/20201104T210411-c0700ee15856468698739bb4f17a7085.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/315/train_episodes/20201104T210412-f0667428c30d49e184b11d3690d045b7.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/test_episodes/20201104T231928-7f45d7eae3d94a1a98e7431e31e77362.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/test_episodes/20201104T231929-07fd79ce13d74f2992f26ce95324bd78.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/test_episodes/20201104T231930-4fd6f0e8941040399b5e11afb85ce0f2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/test_episodes/20201104T231931-f63bd0b037ce4e15a480e04aa76e8a2e.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/test_episodes/20201104T231932-82f5056830ca4d77a5d6389c44a6f11c.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/train_episodes/20201104T231934-052efa7d49ee47babd8664c9747eb1cf.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/train_episodes/20201104T231935-0d286d9b6d4041a8b64853c2940ac61f.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/train_episodes/20201104T231936-10aeb781b92c4d4aa106f36bda0739a9.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/train_episodes/20201104T231937-f7ad4e1eb3974aadaedc18780a84dc33.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/463/train_episodes/20201104T231938-57d1c4a1e0ca46589b5fda508b831382.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/631/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/test_episodes/20201104T201331-cebac6cf303a4f9b9ca4a421b0d0bca6.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/test_episodes/20201104T201332-398ea734b0204fae9504752cb09236bf.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/test_episodes/20201104T201333-207a5606efc24715a263214e64fe1da0.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/test_episodes/20201104T201334-f9cc44d2a54c421ea6bbf90fe9b1fcd6.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/test_episodes/20201104T201335-1c521dcbf67a4c3e91903dc5a3e57b1c.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/train_episodes/20201104T201337-4ccf48fe0c8c4704b60efeab8c1ca6eb.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/train_episodes/20201104T201338-de5f3eef31c945a9a4b69fbc8cb90b9e.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/train_episodes/20201104T201339-d6f495fa3dcf49ed967c42159f2b3e0d.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/train_episodes/20201104T201340-5f2f7c560e76407ea0e2ec5a381d0ed0.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/641/train_episodes/20201104T201341-fab9aade33a6465f98a5fc128c5ddc36.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/FAIL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/test_episodes/20201030T021426-05af896592c04651ae0af6a8fa9c07f3.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/test_episodes/20201030T021427-5bb6410762944816b2b107cd5baaa0aa.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/test_episodes/20201030T021427-eca416d71f594f3dab6fe3428b689d4f.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/test_episodes/20201030T021428-66b1a7ab33a44d73beac4f04f3dafc31.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/test_episodes/20201030T021428-b78a69553af94cfcbecb0ee5c15f38d8.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/train_episodes/20201030T021429-2e3aaaa1152f4212923acfaac8f83cfb.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/train_episodes/20201030T021429-a64ebfa9d9b14494bceb5ea01c89b6d8.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/train_episodes/20201030T021430-566f82e004cb455d99c7989f6fded644.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/train_episodes/20201030T021431-8743c7285abe4be2a47d5da85f24503d.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/662/train_episodes/20201030T021431-d9105a6746154963970736e38f5f48e2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/test/events.out.tfevents.1603995377.Marcuss-MacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/test_episodes/20201030T021557-74465ce2d114433588ea95d2eb8179a0.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/test_episodes/20201030T021558-7c06b9f73a51420295119f1294d53567.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/test_episodes/20201030T021559-387f6ec134a444a5b5fb175136c1e2b9.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/test_episodes/20201030T021600-d9050d1f02ed4f1e9b3204544b710cc6.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/test_episodes/20201030T021600-f84b3aa461fe4298b7917f054aec62bd.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/train/events.out.tfevents.1603995375.Marcuss-MacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/train_episodes/20201030T021601-935e5f523a314ea3ab75bb794e8ffc0e.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/train_episodes/20201030T021602-68e01070840b47cbb6fa48aed9ac7843.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/train_episodes/20201030T021603-46509b8e97f34dc6be6d9d14b67b3247.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/train_episodes/20201030T021603-faf2cadfbb654d318e3aae2b41d9f2a2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/751/train_episodes/20201030T021604-bc2c409bcdd54359a45e99f74766f70e.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/PING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/test_episodes/20201104T185515-638485b7cb2349dabbf73fa2fb471a27.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/test_episodes/20201104T185516-20e5f69672264e40bee1b5fbe987ae89.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/test_episodes/20201104T185517-114f8d262a4b4309aa57b4e26f267029.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/test_episodes/20201104T185518-a22d48030f4a4bad991bf1d733395e83.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/test_episodes/20201104T185519-041eed75e5e14b90806b6c0dd335db49.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/train_episodes/20201104T185520-5a400efb88a54c9cafe8f5cd3535fa10.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/train_episodes/20201104T185521-fd273558dd66403796a541abdd10fa97.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/train_episodes/20201104T185522-1f30ab0f68c24d5bbd75fd7dccb32154.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/train_episodes/20201104T185524-3ab24f4ca52d450cb240edfc8d9fbad2.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/918/train_episodes/20201104T185525-dafbbeca8497464c81ae184e3de979d1.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/diff_hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori1 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori1 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori1 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori12 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori12 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori12 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori16 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori16 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori16 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori4 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori4 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori4 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori8 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori8 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/dist_hori8 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/pairwise_hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/reward_fit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_step/reward_hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/diff_hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori1 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori1 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori1 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori12 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori12 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori12 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori16 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori16 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori16 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori4 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori4 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori4 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori8 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori8 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/dist_hori8 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/pairwise_hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/reward_fit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/contra_traj12/reward_hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/diff_hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori1 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori1 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori1 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori12 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori12 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori12 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori16 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori16 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori16 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori4 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori4 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori4 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori8 all data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori8 lower 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/dist_hori8 top 20% reward .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/pairwise_hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/reward_fit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/hard_negative/reward_hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/scripts/cem_mpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/scripts/plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/scripts/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/networks/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/networks/basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/scripts/configs.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/scripts/configs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/scripts/objectives.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/scripts/objectives.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/tools/chunk_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/tools/chunk_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/tools/numpy_episodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/tools/numpy_episodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/tools/summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/tools/summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/training/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/training/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/training/define_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/training/define_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/training/define_summaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/training/define_summaries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/training/running.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/training/running.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/training/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/training/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planet/training/utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/planet/training/utility.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="8f651c76-51f1-452a-98e4-66a9283c25e4" />
+  <component name="ProjectId" id="1iY6sMLcdlp2z4nfR2X86XvxF5S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/planet/scripts" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/planet/scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/log" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.nll">
+    <configuration name="contra" type="PythonConfigurationType" factoryName="Python">
+      <module name="planet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../lib/anaconda3/envs/w/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="planet/scripts/train.py" />
+      <option name="PARAMETERS" value="--logdir log --params &quot;{tasks: [cheetah_run],r_loss: contra}&quot; --resume_runs False --num_runs 1000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contra_traj" type="PythonConfigurationType" factoryName="Python">
+      <module name="planet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../lib/anaconda3/envs/w/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="planet/scripts/train.py" />
+      <option name="PARAMETERS" value="--logdir log --params &quot;{tasks: [cheetah_run],r_loss: contra,contra_h: 12, contra_unit: traj}&quot; --resume_runs False --num_runs 1000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nll" type="PythonConfigurationType" factoryName="Python">
+      <module name="planet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../lib/anaconda3/envs/w/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="planet/scripts/train.py" />
+      <option name="PARAMETERS" value="--logdir log --params &quot;{tasks: [cheetah_run] ,r_loss: nll}&quot; --resume_runs False --num_runs 1000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="planet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../lib/anaconda3/envs/w/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="planet/scripts/plot.py" />
+      <option name="PARAMETERS" value="--logdir log/001" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="planet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../lib/anaconda3/envs/w/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="planet/scripts/test.py" />
+      <option name="PARAMETERS" value="--logdir log --params &quot;{tasks: [cheetah_run],r_loss: contra}&quot; --resume_runs True --num_runs 1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.contra" />
+      <item itemvalue="Python.plot" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.contra_traj" />
+      <item itemvalue="Python.nll" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f36d65cb-571b-4401-815d-d2d210097f6e" name="Default Changelist" comment="" />
+      <created>1602072383151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602072383151</updated>
+      <workItem from="1602072384213" duration="57105000" />
+      <workItem from="1602252226675" duration="5529000" />
+      <workItem from="1602317447179" duration="4513000" />
+      <workItem from="1602441487895" duration="1330000" />
+      <workItem from="1602527273853" duration="1658000" />
+      <workItem from="1602598263067" duration="9356000" />
+      <workItem from="1602768990725" duration="16520000" />
+      <workItem from="1603008276576" duration="634000" />
+      <workItem from="1603035273328" duration="1558000" />
+      <workItem from="1603043294621" duration="1968000" />
+      <workItem from="1603077645097" duration="6000" />
+      <workItem from="1603088359588" duration="1020000" />
+      <workItem from="1603133045214" duration="2526000" />
+      <workItem from="1603377118758" duration="1651000" />
+      <workItem from="1603827942836" duration="1641000" />
+      <workItem from="1603865251896" duration="99230000" />
+      <workItem from="1604310466615" duration="4092000" />
+      <workItem from="1604332720931" duration="4687000" />
+      <workItem from="1604394106025" duration="24106000" />
+      <workItem from="1604558344614" duration="1304000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1816" y="213" width="1334" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604061947969">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state x="-1816" y="213" width="1334" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1604061947969" />
+    <state x="-1816" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.-169.2560.1440/0.23.1792.1012@-2560.-169.2560.1440" timestamp="1604043050216" />
+    <state x="-1816" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.-169.2560.1440/0.23.1792.1097@-2560.-169.2560.1440" timestamp="1603871408904" />
+    <state x="-1524" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604056816465">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state x="-1524" y="360" key="#com.intellij.fileTypes.FileTypeChooser/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1604056816465" />
+    <state width="678" height="466" key="DebuggerActiveHint" timestamp="1602149902769">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state width="678" height="466" key="DebuggerActiveHint/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1602149902769" />
+    <state x="-2460" y="-69" width="2360" height="1240" key="DiffContextDialog" timestamp="1602176189362">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state x="-2460" y="-69" width="2360" height="1240" key="DiffContextDialog/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1602176189362" />
+    <state width="2518" height="447" key="GridCell.Tab.0.bottom" timestamp="1604557933840">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="447" key="GridCell.Tab.0.bottom/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1604557933840" />
+    <state width="1776" height="460" key="GridCell.Tab.0.bottom/-2560.-169.2560.1440/0.23.1792.1012@-2560.-169.2560.1440" timestamp="1603898792990" />
+    <state width="1361" height="424" key="GridCell.Tab.0.bottom/-2560.-169.2560.1440/0.23.1792.1013@-2560.-169.2560.1440" timestamp="1602180159482" />
+    <state width="1771" height="338" key="GridCell.Tab.0.bottom/-2560.-169.2560.1440/0.23.1792.1097@-2560.-169.2560.1440" timestamp="1604490452052" />
+    <state width="1494" height="210" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1604341570464" />
+    <state width="1494" height="210" key="GridCell.Tab.0.bottom/0.23.1536.849@0.23.1536.849" timestamp="1604338051696" />
+    <state width="2518" height="447" key="GridCell.Tab.0.center" timestamp="1604557933838">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="447" key="GridCell.Tab.0.center/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1604557933838" />
+    <state width="1776" height="460" key="GridCell.Tab.0.center/-2560.-169.2560.1440/0.23.1792.1012@-2560.-169.2560.1440" timestamp="1603898792988" />
+    <state width="1361" height="424" key="GridCell.Tab.0.center/-2560.-169.2560.1440/0.23.1792.1013@-2560.-169.2560.1440" timestamp="1602180159481" />
+    <state width="1771" height="338" key="GridCell.Tab.0.center/-2560.-169.2560.1440/0.23.1792.1097@-2560.-169.2560.1440" timestamp="1604490452051" />
+    <state width="1494" height="210" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1604341570463" />
+    <state width="1494" height="210" key="GridCell.Tab.0.center/0.23.1536.849@0.23.1536.849" timestamp="1604338051695" />
+    <state width="2518" height="447" key="GridCell.Tab.0.left" timestamp="1604557933838">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="447" key="GridCell.Tab.0.left/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1604557933838" />
+    <state width="1776" height="460" key="GridCell.Tab.0.left/-2560.-169.2560.1440/0.23.1792.1012@-2560.-169.2560.1440" timestamp="1603898792988" />
+    <state width="1361" height="424" key="GridCell.Tab.0.left/-2560.-169.2560.1440/0.23.1792.1013@-2560.-169.2560.1440" timestamp="1602180159480" />
+    <state width="1771" height="338" key="GridCell.Tab.0.left/-2560.-169.2560.1440/0.23.1792.1097@-2560.-169.2560.1440" timestamp="1604490452050" />
+    <state width="1494" height="210" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1604341570462" />
+    <state width="1494" height="210" key="GridCell.Tab.0.left/0.23.1536.849@0.23.1536.849" timestamp="1604338051695" />
+    <state width="2518" height="447" key="GridCell.Tab.0.right" timestamp="1604557933839">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="447" key="GridCell.Tab.0.right/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1604557933839" />
+    <state width="1776" height="460" key="GridCell.Tab.0.right/-2560.-169.2560.1440/0.23.1792.1012@-2560.-169.2560.1440" timestamp="1603898792989" />
+    <state width="1361" height="424" key="GridCell.Tab.0.right/-2560.-169.2560.1440/0.23.1792.1013@-2560.-169.2560.1440" timestamp="1602180159481" />
+    <state width="1771" height="338" key="GridCell.Tab.0.right/-2560.-169.2560.1440/0.23.1792.1097@-2560.-169.2560.1440" timestamp="1604490452051" />
+    <state width="1494" height="210" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1604341570463" />
+    <state width="1494" height="210" key="GridCell.Tab.0.right/0.23.1536.849@0.23.1536.849" timestamp="1604338051696" />
+    <state x="-2333" y="152" width="1204" height="722" key="SettingsEditor" timestamp="1604490338726">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state x="-2333" y="152" width="1204" height="722" key="SettingsEditor/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1604489857860" />
+    <state x="-2333" y="152" key="SettingsEditor/-2560.-169.2560.1440/0.23.1792.1097@-2560.-169.2560.1440" timestamp="1604490338726" />
+    <state width="1280" height="720" key="XDebugger.FullValuePopup" timestamp="1602087825963">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state width="1280" height="720" key="XDebugger.FullValuePopup/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1602087825963" />
+    <state x="-1468" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604058861258">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state x="-1468" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1604058861258" />
+    <state x="0" y="23" width="1792" height="1005" key="dock-window-1" timestamp="1604559864087">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="0" y="0" width="1792" height="1120" key="dock-window-1/-2560.-146.2560.1417/0.0.1792.1028@-2560.-146.2560.1417" timestamp="1604519927254" />
+    <state x="0" y="23" width="1792" height="1005" maximized="true" key="dock-window-1/-2560.-146.2560.1417/0.23.1792.1005@-2560.-146.2560.1417" timestamp="1604559611377" />
+    <state x="0" y="0" width="1792" height="1120" key="dock-window-1/-2560.-146.2560.1417/0.23.1792.1015@-2560.-146.2560.1417" timestamp="1604027770935" />
+    <state x="0" y="23" width="1792" height="1005" key="dock-window-1/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1604559864087" />
+    <state x="0" y="0" width="1792" height="1120" key="dock-window-1/-2560.-169.2560.1440/0.23.1792.1005@-2560.-169.2560.1440" timestamp="1604520303161" />
+    <state x="0" y="0" width="1792" height="1120" key="dock-window-1/-2560.-169.2560.1440/0.23.1792.1006@-2560.-169.2560.1440" timestamp="1604557731398" />
+    <state x="0" y="0" width="1792" height="1120" key="dock-window-1/-2560.-169.2560.1440/0.23.1792.1012@-2560.-169.2560.1440" timestamp="1603997766666" />
+    <state x="0" y="0" width="1536" height="960" key="dock-window-1/0.23.1536.857@0.23.1536.857" timestamp="1604551766477" />
+    <state x="-2170" y="325" width="1001" height="946" key="find.popup" timestamp="1604507903675">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state x="-2209" y="204" width="1001" height="724" key="find.popup/-2560.-146.2560.1417/0.23.1792.1017@-2560.-146.2560.1417" timestamp="1602527563857" />
+    <state x="-2170" y="325" width="1001" height="946" key="find.popup/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1604507903675" />
+    <state x="817" y="295" width="702" height="737" key="find.popup/-2560.-169.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1604405313846" />
+    <state x="-2170" y="325" width="1001" height="946" key="find.popup/-2560.-169.2560.1440/0.23.1792.1097@-2560.-169.2560.1440" timestamp="1603979213060" />
+    <state x="700" y="253" width="601" height="631" key="find.popup/0.0.1536.960@0.0.1536.960" timestamp="1604339620243" />
+    <state x="-1225" y="308" width="508" height="525" key="ftp.server.browser" timestamp="1602072876060">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state x="-1225" y="308" width="508" height="525" key="ftp.server.browser/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1602072876060" />
+    <state x="-1615" y="162" width="670" height="676" key="search.everywhere.popup" timestamp="1602306609826">
+      <screen x="-2560" y="-169" width="2560" height="1440" />
+    </state>
+    <state x="-1615" y="162" width="670" height="676" key="search.everywhere.popup/-2560.-169.2560.1440/0.0.1792.1120@-2560.-169.2560.1440" timestamp="1602306609826" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/planet/training/__init__.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/planet/training/define_model.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/planet/training/define_summaries.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/planet/control/simulate.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/planet/control/wrappers.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/planet/control/mpc_agent.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/planet$nll.coverage" NAME="nll Coverage Results" MODIFIED="1604503969826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/planet$test.coverage" NAME="test Coverage Results" MODIFIED="1603995961243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/planet$contra.coverage" NAME="contra Coverage Results" MODIFIED="1603996033094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/planet$train.coverage" NAME="train Coverage Results" MODIFIED="1602170149985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/planet$plot.coverage" NAME="plot Coverage Results" MODIFIED="1604070497841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/planet$contra_traj.coverage" NAME="contra_traj Coverage Results" MODIFIED="1602773209830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

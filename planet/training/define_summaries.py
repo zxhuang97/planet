@@ -46,6 +46,7 @@ def define_summaries(graph, config, cleanups):
         heads['image'] = lambda features: transform(graph.heads['image'](features))
     heads.lock()
 
+
     with tf.variable_scope('general'):
         summaries += summary.data_summaries(graph.data, config.postprocess_fn)
         summaries += summary.dataset_summaries(config.train_dir)

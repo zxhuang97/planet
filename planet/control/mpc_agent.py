@@ -312,7 +312,6 @@ def gener(directory):
                    'collect': collect, 'all_reward':all_reward}
         ind_epi+=1
 
-
 class dualMPCAgent2(object):
 
     def __init__(self, batch_env, step, is_training, should_log, config):

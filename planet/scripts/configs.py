@@ -211,7 +211,6 @@ def _loss_functions(config, params):
         defaults = {'reward': float(params.get('reward_loss_scale', 10.0))}
         scale = defaults[head] if head in defaults else 1.0
         config.loss_scales[head] = params.get(head + '_loss_scale', scale)
-
     config.free_nats = params.get('free_nats', 3.0)
     config.overshooting_distance = params.get('overshooting_distance', 0)
     config.os_stop_posterior_grad = params.get('os_stop_posterior_grad', True)
